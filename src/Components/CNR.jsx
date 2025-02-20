@@ -82,10 +82,10 @@ const CNR = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
                     <li className="p-2">
-                        CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- ETA+10 mins crossed -- CNR attempt available -- call Cx twice -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- shared the same with DP.
+                        CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- ETA+10 mins crossed -- CNR attempt available -- call Cx-- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- shared the same with DP.
                     </li>
                     <li className="p-2">
-                        CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- ETA+10 mins crossed -- CNR attempt available -- call Cx twice -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- order canceled -- shared the same with DP.
+                        CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- ETA+10 mins crossed -- CNR attempt available -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- order canceled -- shared the same with DP.
                     </li>
                     <li className="p-2">
                         CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- ETA+10 mins crossed -- CNR attempt not available -- asked to follow the automation process.
