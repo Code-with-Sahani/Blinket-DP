@@ -77,6 +77,9 @@ const PaymentIssue = () => {
                 </div>
 
                 {/* Final Cases */}
+                <h3 className="text-lg font-semibold text-emerald-400 mt-5">
+                    Customer not Responsive
+                </h3>
                 <div className="p-3 bg-gray-600 rounded-md shadow">
                     <li className="p-2">Payment Issue -- check payment status -- 
                         <strong className="text-amber-300 font-semibold"> pending/No Inactive </strong> -- called cx -- 
