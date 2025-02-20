@@ -5,6 +5,7 @@ import UMD from './Components/UMD'
 import UD_SOS from './Components/UD_SOS'
 import CNR from './Components/CNR'
 import CDO from './Components/CDO'
+import BuddyRider from './Components/BuddyRider'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <UMD/>
       <UD_SOS/>
       <PaymentIssue/>
+      <BuddyRider/>
     </div>
   )
 }
