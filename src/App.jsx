@@ -8,6 +8,7 @@ import CDO from './Components/CDO'
 import BuddyRider from './Components/BuddyRider'
 import DP_Not_Answer from './Components/DP_Not_Answer'
 import OTP from './Components/OTP'
+import Return_Replacement from './Components/Return_Replacement'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <UD_SOS/>
       <PaymentIssue/>
       <BuddyRider/>
+      <Return_Replacement/>
     </div>
   )
 }
