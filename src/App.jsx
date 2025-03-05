@@ -9,6 +9,7 @@ import BuddyRider from './Components/BuddyRider'
 import DP_Not_Answer from './Components/DP_Not_Answer'
 import OTP from './Components/OTP'
 import Return_Replacement from './Components/Return_Replacement'
+import Item_Issue_At_Store from './Components/Item_Issue_At_Store'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <AddressIssue/>
       <CNR/>
       <CDO/>
+      <Item_Issue_At_Store/>
       <UMD/>
       <OTP/>
       <UD_SOS/>
