@@ -3,7 +3,7 @@ import React from 'react'
 const BuddyRider = () => {
     return (
         <div className='m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8'>
-            <h2 className="text-center text-2xl font-semibold text-emerald-400 mb-1">Buddy Rider</h2>
+            <h2 className="text-center text-2xl font-semibold text-emerald-400 mb-1">Buddy Rider Assignment</h2>
 
             <div className='space-y-4'>
 
