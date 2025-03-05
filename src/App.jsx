@@ -7,6 +7,7 @@ import CNR from './Components/CNR'
 import CDO from './Components/CDO'
 import BuddyRider from './Components/BuddyRider'
 import DP_Not_Answer from './Components/DP_Not_Answer'
+import OTP from './Components/OTP'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <CNR/>
       <CDO/>
       <UMD/>
+      <OTP/>
       <UD_SOS/>
       <PaymentIssue/>
       <BuddyRider/>
