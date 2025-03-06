@@ -11,9 +11,9 @@ const AddressIssue = () => {
                     <ul className="list-disc pl-5">
                         <li className="p-2">Out of polygon -- <strong className="text-yellow-400 font-semibold">Alternate Store</strong> -- Ask DP to deliver order & denied cancellation</li>
                         <li className="p-2">Out of polygon -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- Ask DP to deliver order & denied cancellation</li>
-                        <li className="p-2">Out of polygon -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- 2.2 km from pin location -- pitch extra payout -- Ask DP to deliver order & denied cancellation</li>
-                        <li className="p-2">Out of polygon -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 2.9 km from pin location -- pitch extra payout -- DP agree -- Ask DP to deliver order & denied cancellation </li>
-                        <li className="p-2">Out of polygon -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 2.9 km from pin location -- pitch extra payout -- DP Disagree -- Call Cx for cancellation & refund details -- Order cancel by me -- Same inform to the DP</li>
+                        <li className="p-2">Out of polygon -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- 2.2 km -- pitch extra payout -- Ask DP to deliver order & denied cancellation</li>
+                        <li className="p-2">Out of polygon -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 2.9 km -- pitch extra payout -- DP agree -- Ask DP to deliver order & denied cancellation </li>
+                        <li className="p-2">Out of polygon -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 2.9 km -- pitch extra payout -- DP Disagree -- Call Cx for cancellation & refund details -- Order cancel by me -- Same inform to the DP</li>
                     </ul>
                 </div>
 
