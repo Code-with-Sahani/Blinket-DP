@@ -12,8 +12,10 @@ const CDO = () => {
                 <h3 className="text-md font-semibold text-emerald-300 mb-4">Cancel due to Mistake Reason:</h3>
                 <ul className="list-disc pl-5">
                     <li className='p-2'>CDO -- ETA+10 mins not cross -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx ready to accept -- ask DP to ensure the delivery</li>
-                    <li className='p-2'>CDO -- ETA+10 mins not cross -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- cancel the order & cancel charges details shared -- same info shared to DP</li>
-                    <li className='p-2'>CDO -- ETA+10 mins not cross -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- and also not allowing to cancel and disconnected -- ask DP to follow automation in CDO</li>
+
+                    <li className='p-2'>CDO -- ETA+10 mins not cross -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- <strong className='text-yellow-300 font-semibold'>consent given by cx</strong> -- cancel order & refund TAT shared -- same info shared to DP</li>
+
+                    <li className='p-2'>CDO -- ETA+10 mins not cross -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- <strong className='text-yellow-300 font-semibold'>consent not given by cx</strong> -- ask DP to follow automation in CDO</li>
                 </ul>
             </div>
             
@@ -42,8 +44,10 @@ const CDO = () => {
                 <h3 className="text-md font-semibold text-emerald-300 mb-4">Cancel due to Mistake Reason:</h3>
                 <ul className="list-disc pl-5">
                     <li className='p-2'>CDO -- ETA+10 mins crossed -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx ready to accept -- ask DP to ensure the delivery</li>
-                    <li className='p-2'>CDO -- ETA+10 mins crossed -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- cancel the order & cancel charges details shared -- same info shared to DP</li>
-                    <li className='p-2'>CDO -- ETA+10 mins crossed -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- and also not allowing to cancel and disconnected -- ask DP to follow automation in CDO</li>
+
+                     <li className='p-2'>CDO -- ETA+10 mins crossed -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- <strong className='text-yellow-300 font-semibold'>consent given by cx</strong> -- cancel order & refund TAT shared -- same info shared to DP</li>
+
+                     <li className='p-2'>CDO -- ETA+10 mins crossed -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- <strong className='text-yellow-300 font-semibold'>consent not given by cx</strong> -- ask DP to follow automation in CDO</li>
                 </ul>
             </div>
             
