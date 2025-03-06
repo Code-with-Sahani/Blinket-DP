@@ -16,7 +16,6 @@ const App = () => {
     <div className='h-full w-full bg-gray-900 text-white'>
       <header className=' p-4 text-pink-200 text-center text-2xl font-semibold' >Comment Sheet For DP support - Certified by "Sahani 	&#128517;"</header>
       <DP_Not_Answer/>
-      <AddressIssue/>
       <CNR/>
       <CDO/>
       <Item_Issue_At_Store/>
@@ -26,6 +25,7 @@ const App = () => {
       <PaymentIssue/>
       <BuddyRider/>
       <Return_Replacement/>
+      <AddressIssue/>
     </div>
   )
 }
