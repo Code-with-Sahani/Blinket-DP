@@ -73,19 +73,30 @@ const AddressIssue = () => {
                         </li>
                     </ul>
                 </div>
+
+
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-lg font-semibold text-emerald-400 mb-3">Incomplete Address</h3>
                     <ul className="list-disc pl-5">
                         <li className="p-2">Incomplete address -- mentioned address minor details missing -- called cx -- <strong className="text-red-400 font-semibold">cx responsive </strong> -- requested cx to call the rider for guidance -- same share to rider and asked to ensure delivery
                         </li>
+
                         <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- requested the rider for few more attempt and asked to wait -- asked to follow the automation process after ETA+10mins-- DP agreed
                         </li>
+
                         <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- order canceled -- shared the same with DP
                         </li>
+
                     </ul>
-                </div>  
+                </div>
+
+               
             </div>
+
+
         </div>
+
+
     );
 };
 
