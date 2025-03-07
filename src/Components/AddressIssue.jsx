@@ -27,7 +27,7 @@ const AddressIssue = () => {
                         </li>
 
                         <li className="p-2">
-                            Address Issue-Pin location/ address mismatch -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> called cx -- cx responsive -- requested cx to called DP for the better location guidance -- 1.7 km from pin location  -- pitch extra payout -- ask DP to delivered on address
+                            Address Issue-Pin location/ address mismatch -- <strong className="text-yellow-400 font-semibold">Serviceable</strong>  called cx -- cx responsive -- requested cx to called DP for the better location guidance -- 1.7 km from pin location  -- pitch extra payout -- ask DP to delivered on address
                         </li>
 
                         <li className='p-2'>Address Issue-Pin location/ address mismatch -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 350 m from pin location -- pitch extra payout -- DP agree -- ask DP to deliver order & denied cancellation
