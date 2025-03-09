@@ -24,11 +24,18 @@ const CDO = () => {
                 <ul className="list-disc pl-5">
                     <li className='p-2'>CDO -- ETA+10 mins not cross -- <strong className='text-yellow-300 font-semibold'>due to Delay</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx ready to accept -- ask DP to ensure the delivery</li>
                     <li className='p-2'>CDO -- ETA+10 mins not cross -- <strong className='text-yellow-300 font-semibold'>due to Delay</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- cancel the order & Refund TAT shared -- same info shared to DP</li>
-                    <li className='p-2'>CDO -- ETA+10 mins not cross -- due to item missing/Expired/Rotten/Damage -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- same info shared to DP</li>
-                    <li className='p-2'>CDO -- ETA+10 mins not cross -- due to item missing/Expired/Rotten/Damage -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- but cx insists us to cancel -- order canceled by me -- same info shared to DP</li>
+                    
                 </ul>
             </div>
             
+            <div className="p-3 bg-gray-700 rounded-md shadow">
+                <h3 className="text-md font-semibold text-emerald-300 mb-4">Guided to Chat Support</h3>
+                <ul className="list-disc pl-5">
+                <li className='p-2'>CDO -- ETA+10 mins not cross -- due to item missing/Expired/Rotten/Damage -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- same info shared to DP</li>
+                <li className='p-2'>CDO -- ETA+10 mins not cross -- due to item missing/Expired/Rotten/Damage -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- but cx insists us to cancel -- order canceled by me -- same info shared to DP</li>
+                </ul>
+            </div>
+
             <div className="p-3 bg-gray-700 rounded-md shadow">
                 <h3 className="text-md font-semibold text-emerald-300 mb-4">Customer Not Responsive:</h3>
                 <ul className="list-disc pl-5">
@@ -58,6 +65,15 @@ const CDO = () => {
                     <li className='p-2'>CDO -- ETA+10 mins crossed -- <strong className='text-yellow-300 font-semibold'>due to Delay</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- cancel the order & Refund TAT shared -- same info shared to DP</li>
                 </ul>
             </div>
+
+            <div className="p-3 bg-gray-700 rounded-md shadow">
+                <h3 className="text-md font-semibold text-emerald-300 mb-4">Guided to Chat Support</h3>
+                <ul className="list-disc pl-5">
+                <li className='p-2'>CDO -- ETA+10 mins crossed -- due to item missing/Expired/Rotten/Damage -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- same info shared to DP</li>
+                <li className='p-2'>CDO -- ETA+10 mins crossed -- due to item missing/Expired/Rotten/Damage -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- but cx insists us to cancel -- order canceled by me -- same info shared to DP</li>
+                </ul>
+            </div>
+
             
             <div className="p-3 bg-gray-700 rounded-md shadow">
                 <h3 className="text-md font-semibold text-emerald-300 mb-4">Customer Not Responsive:</h3>
