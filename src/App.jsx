@@ -13,7 +13,7 @@ import Item_Issue_At_Store from './Components/Item_Issue_At_Store'
 
 const App = () => {
   return (
-    <div className='h-screen w-full bg-gray-900 text-white'>
+    <div className='max-h-screen w-full bg-gray-900 text-white'>
       <header className=' p-4 text-pink-200 text-center text-2xl font-semibold' >Comment Sheet For DP support - Certified by "Sahani 	&#128517;"</header>
       <details>
         <summary>DP is not Responding</summary>
