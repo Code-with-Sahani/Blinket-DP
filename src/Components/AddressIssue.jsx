@@ -3,7 +3,7 @@ import React from 'react';
 const AddressIssue = () => {
     return (
 
-        <div className="m-2 p-4 text-sm bg-blue-400 text-white rounded-md md:p-6 lg:p-8">
+        <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
             <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-1'>Address Issue </h2>
             <h3 className="text-lg font-semibold text-amber-400 mb-3">Out of Polygon</h3>
             <div className="space-y-4">
