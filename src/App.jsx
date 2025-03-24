@@ -10,6 +10,7 @@ import DP_Not_Answer from './Components/DP_Not_Answer'
 import OTP from './Components/OTP'
 import Return_Replacement from './Components/Return_Replacement'
 import Item_Issue_At_Store from './Components/Item_Issue_At_Store'
+import Large_Order from './Components/Large_Order'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <DP_Not_Answer/>
       <CNR/>
       <CDO/>
+      <Large_Order/>
       <Item_Issue_At_Store/>
       <UMD/>
       <OTP/>
