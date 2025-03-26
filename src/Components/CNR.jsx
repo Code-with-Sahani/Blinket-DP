@@ -35,7 +35,7 @@ const CNR = () => {
                             CNR — <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> — ETA+10 mins not crossed — requested the rider for a few more attempts and wait — asked to follow the automation process after ETA+10 mins.
                         </li>
                         <li className="p-2">
-                            CNR — <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> — ETA+10 mins not crossed — DP requested to call Cx — call Cx — <strong className='text-red-400 font-semibold'>Cx responsive</strong> — call you if they can't find you — same shared with rider.
+                            CNR — <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> — ETA+10 mins not crossed — DP requested to call Cx — call Cx — <strong className='text-red-400 font-semibold'>Cx responsive</strong>— same shared with rider.
                         </li>
 
                         <li className="p-2">
