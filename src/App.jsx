@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div className='h-full w-full bg-gradient-to-br from-blue-600 to-purple-800 text-white min-h-screen'>
+    <div className='h-full w-full bg-blue-700 text-white min-h-screen'>
       <header className='p-4 text-pink-200 text-center text-2xl font-semibold'>
         Comment Sheet For DP support - Certified by "Sahani 😆"
       </header>
