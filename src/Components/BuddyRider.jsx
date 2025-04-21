@@ -18,7 +18,7 @@ const BuddyRider = () => {
                     <ul className="list-disc pl-5">
 
                         <li className='p-2'>DP requested BR -- <strong className='text-yellow-300 font-semibold'>18 Kg</strong> -- tried to convince to deliver itself -- DP convinced -- asked to delivered as soon as possible</li>
-                        <li className='p-2'>DP requested BR -- <strong className='text-yellow-300 font-semibold'>18 Kg</strong> -- tried to convince to deliver itself -- not convinced -- highlight to concern team -- asked DP to wait for call back from concern team</li>
+                        <li className='p-2'>DP requested BR -- tried to convince to deliver itself -- not convinced -- highlight to concern team -- asked DP to wait for call back from concern team</li>
 
                     </ul>
                 </div>
