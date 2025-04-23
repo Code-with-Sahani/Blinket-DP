@@ -15,19 +15,20 @@ import Large_Order from './Components/Large_Order'
 const App = () => {
   return (
     <div className='h-full w-full bg-blue-500 text-white'>
-      <header className=' p-4 text-pink-200 text-center text-2xl font-semibold' >Comment Sheet For DP support - Certified by "Sahani 	&#128517;"</header>
-      <DP_Not_Answer/>
-      <CNR/>
-      <CDO/>
-      <Large_Order/>
-      <Item_Issue_At_Store/>
-      <UMD/>
-      <OTP/>
-      <UD_SOS/>
-      <PaymentIssue/>
-      <BuddyRider/>
-      <Return_Replacement/>
-      <AddressIssue/>
+
+      <header className=' p-4 text-pink-200 text-center text-2xl font-semibold flex gap-100' >Comment Sheet For DP support - Certified by "Sahani 	&#128517;" <h2 className='text-sm mt-3'>Last Updated :23 -04-2025 at 23:30:00</h2></header>
+      <DP_Not_Answer />
+      <CNR />
+      <CDO />
+      <Large_Order />
+      <Item_Issue_At_Store />
+      <UMD />
+      <OTP />
+      <UD_SOS />
+      <PaymentIssue />
+      <BuddyRider />
+      <Return_Replacement />
+      <AddressIssue />
     </div>
   )
 }
