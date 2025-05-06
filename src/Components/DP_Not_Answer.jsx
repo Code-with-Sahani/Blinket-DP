@@ -11,7 +11,7 @@ const DP_Not_Answer = () => {
             <ul className="list-disc pl-5">
 
                 <li className='p-2'>Dp Not Responding -- Call Twice -- Not responsive </li>
-                <li className='p-2'>Dp Not Responding  -- previous Agent Call -- hence Call Once -- Not Answering</li>
+                <li className='p-2'>Dp Not Responding -- previous Agent already Call him -- hence Call Once -- Not Answering</li>
 
             </ul>
         </div>
