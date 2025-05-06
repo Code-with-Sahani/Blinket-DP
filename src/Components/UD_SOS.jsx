@@ -32,6 +32,7 @@ const UD_SOS = () => {
             <div className="space-y-4">
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
+                        <li className="p-2">Rain -- <strong className='text-sky-500'>Bad Weather / Rain Tag Not Available</strong> -- ask DP to deliver order </li>
                         <li className="p-2">Rain -- <strong className='text-sky-500'>Bad Weather / Rain Tag Available</strong> -- tried to convince DP for delivery -- DP agreed to deliver order </li>
                         <li className="p-2">Rain -- <strong className='text-sky-500'>Bad Weather / Rain Tag Available</strong> -- DP not agreed to deliver order -- informed cx about weather -- order cancelled & refund TAT shared -- details shared with DP </li>
                         <li className="p-2">Rain -- <strong className='text-sky-500'>Bad Weather / Rain Tag Available</strong> -- order not cancelled -- asked DP to ensure delivery </li>
