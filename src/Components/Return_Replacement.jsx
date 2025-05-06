@@ -8,7 +8,7 @@ const Return_Replacement = () => {
             <div className="space-y-4">
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
-
+                        <li className='p-2'>RPU -- stated that cx returning an open/ damage/ used/ wrong product -- inform the rider that was checked by cx support already -- requested to collect the same and submit it at store</li>
                         <li className='p-2'>Pickup order/ Redelivery-CNR -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- share same to DP & ensure pickup/Redelivery </li>
 
                         <li className="p-2">Pickup order/ Redelivery-CNR -- called cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- order cancel -- same share to DP</li>
