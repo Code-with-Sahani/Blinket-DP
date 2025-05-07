@@ -11,13 +11,15 @@ import OTP from './Components/OTP'
 import Return_Replacement from './Components/Return_Replacement'
 import Item_Issue_At_Store from './Components/Item_Issue_At_Store'
 import Large_Order from './Components/Large_Order'
+import Nonlive from './Components/Nonlive'
 
 const App = () => {
   return (
     <div className='h-full w-full bg-blue-500 text-white'>
 
-      <header className=' p-4 text-pink-200 text-center text-2xl font-semibold flex gap-100' >Comment Sheet For DP support - Certified by "Sahani 	&#128517;" <h2 className='text-sm mt-2'>Last Updated :23 -04-2025 at 23:30:00</h2></header>
+      <header className=' p-4 text-pink-200 text-center text-2xl font-semibold flex gap-100' >Comment Sheet For DP support - Certified by "Sahani 	&#128517;" <h2 className='text-sm mt-3'>Last Updated :06-05-2025 at 05:30:00</h2></header>
       <DP_Not_Answer />
+      <Nonlive/>
       <CNR />
       <CDO />
       <Large_Order />
