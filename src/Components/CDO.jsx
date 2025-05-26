@@ -74,12 +74,12 @@ const CDO = () => {
                 </ul>
             </div>
 
-            
             <div className="p-3 bg-gray-700 rounded-md shadow">
                 <h3 className="text-md font-semibold text-emerald-300 mb-4">Customer Not Responsive:</h3>
                 <ul className="list-disc pl-5">
-                    <li className='p-2'>CDO -- ETA+10 mins crossed -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- CDO automation not followed -- Asked DP to follow proper automation in CDO</li>
-                    <li className='p-2'>CDO -- ETA+10 mins crossed -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- CDO automation followed -- canceled the order -- same informed to DP</li>
+                    <li className='p-2'>CDO -- ETA+10 mins not cross -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- call recording available -- cx wants cancel -- order canceled by me -- same shared to DP</li>
+                    <li className='p-2'>CDO -- ETA+10 mins not cross -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- call recording available -- cx does not want to cancel -- ask DP to follow automation in CDO if cx wants to cancel else deliver the order</li>
+                    <li className='p-2'>CDO -- ETA+10 mins not cross -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No call recording available -- ask DP to follow automation in CDO if cx wants to cancel else deliver the order</li>
                 </ul>
             </div>
             </div>
