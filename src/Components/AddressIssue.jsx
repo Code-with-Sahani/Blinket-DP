@@ -122,8 +122,24 @@ const AddressIssue = () => {
 
                     </ul>
                 </div>
+                   <div className="p-3 bg-gray-700 rounded-md shadow">
+                <h3 className="text-lg font-semibold text-emerald-400 mb-3">New Updated Regarding address</h3>
+                <ul className="list-disc pl-5">
+                    <li className="p-2">Address Issue :  <strong className="text-red-400 font-semibold">Distance b/w location & address &lt; 400 meters : </strong>  ask rider to delivered the order : raise the ticket for the extra distance if travelled </li>
 
+                    <li className='p-2'>Address Issue :  <strong className="text-red-400 font-semibold">Distance b/w location & address &gt; 400 meters : </strong>  <strong className="text-red-400 font-semibold"> but distance b/w Store & address &gt; 4 km :</strong> ask rider to delivered the order : raise the ticket for the extra distance if travelled
+                    </li>
 
+                    <li className='p-2'>Address Issue :  <strong className="text-red-400 font-semibold">Distance b/w location & address &lt; 400 meters : </strong>  <strong className="text-red-400 font-semibold"> but distance b/w Store & address &gt; 4 km :</strong> Store is  Serviceable : ask rider to delivered the order : raise the ticket for the extra distance if travelled
+                    </li>
+
+                    <li className='p-2'>Address Issue :  <strong className="text-red-400 font-semibold">Distance b/w location & address &lt; 400 meters : </strong>  <strong className="text-red-400 font-semibold"> but distance b/w Store & address &gt; 4 km :</strong> Store is  Not Serviceable : ask rider to delivered the order with extra payout : rider agreed : ask him to delivered & rasie a ticket for the extra pay
+                    </li>
+
+                    <li className='p-2'>Address Issue :  <strong className="text-red-400 font-semibold">Distance b/w location & address &lt; 400 meters : </strong>  <strong className="text-red-400 font-semibold"> but distance b/w Store & address &gt; 4 km :</strong> Store is  Not Serviceable : ask rider to delivered the order with extra payout :  DP denied extra payout : called cx inform about cancellation & refund TAT shared : order cancel : same share to DP
+                    </li>
+                </ul>
+            </div>
 
         </div>
 
