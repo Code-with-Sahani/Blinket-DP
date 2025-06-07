@@ -43,7 +43,7 @@ const AddressIssue = () => {
                         <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 2.9 km -- pitch extra payout -- DP Disagree -- Call Cx for cancellation & refund details -- Order cancel by me -- Same inform to the DP</li>
                     </ul>
                 </div>
-
+*/}
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-lg font-semibold text-emerald-400 mb-3">Location Issue / calling cx for Guidance</h3>
                     <ul className="list-disc pl-5">
@@ -53,7 +53,7 @@ const AddressIssue = () => {
                         <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- requested the rider for few more attempt and asked to wait -- asked to follow the automation process after ETA+10mins-- DP agreed</li>
                         <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- order canceled -- shared the same with DP</li>
                     </ul>
-                </div> */}
+                </div> 
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-lg font-semibold text-emerald-400 mb-3">Incomplete Address</h3>
