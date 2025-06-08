@@ -16,9 +16,9 @@ const AddressIssue = () => {
 
                         <li className="p-2">Out of polygon -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">serviceable store -- </strong> ask rider to deliver & denied cancellation </li>
 
-                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">not serviceable store -- </strong> -- rider agreed for extra pay -- ask rider to deliver & raise a ticket after delivery </li>
+                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">not serviceable store -- </strong> rider agreed for extra pay -- ask rider to deliver & raise a ticket after delivery </li>
 
-                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">not serviceable store -- </strong> -- rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider</li>
+                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">not serviceable store -- </strong> rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider</li>
 
                     </ul>
                 </div>
@@ -69,11 +69,11 @@ const AddressIssue = () => {
                     <ul className="list-disc pl-5">
                         <li className="p-2">Address Issue -- Distance b/w store & address is less than 4 km -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
 
-                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km --<strong className="text-red-400 font-semibold">Serviceable store -- </strong> ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
+                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km --<strong className="text-yellow-400 font-semibold">Serviceable store -- </strong> ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
 
-                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km --<strong className="text-red-400 font-semibold">Not Serviceable store</strong> rider agreed for extra pay -- ask rider to deliver & raise the ticket after delivery</li>
+                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km --<strong className="text-yellow-400 font-semibold">Not Serviceable store</strong> rider agreed for extra pay -- ask rider to deliver & raise the ticket after delivery</li>
 
-                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km --<strong className="text-red-400 font-semibold">Not Serviceable store</strong> rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider </li>
+                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km --<strong className="text-yellow-400 font-semibold">Not Serviceable store</strong> rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider </li>
 
                     </ul>
                 </div>
@@ -81,11 +81,11 @@ const AddressIssue = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-lg font-semibold text-emerald-400 mb-3">Incomplete Address</h3>
                     <ul className="list-disc pl-5">
-                        <li className="p-2">Incomplete address -- mentioned address minor details missing -- called cx -- <strong className="text-red-400 font-semibold">cx responsive </strong> -- requested cx to call the rider for guidance -- same share to rider and asked to ensure delivery</li>
+                        <li className="p-2">Incomplete address -- mentioned address minor details missing -- called cx -- <strong className="text-yellow-400 font-semibold">cx responsive </strong> -- requested cx to call the rider for guidance -- same share to rider and asked to ensure delivery</li>
 
-                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- requested the rider for few more attempt and asked to wait -- asked to follow the automation process after ETA+10mins-- DP agreed</li>
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- requested the rider for few more attempt and asked to wait -- asked to follow the automation process after ETA+10mins-- DP agreed</li>
 
-                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- order canceled -- shared the same with DP</li>
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- order canceled -- shared the same with DP</li>
                     </ul>
                 </div>
 
