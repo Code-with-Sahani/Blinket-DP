@@ -69,11 +69,11 @@ const AddressIssue = () => {
                     <ul className="list-disc pl-5">
                         <li className="p-2">Address Issue -- Distance b/w store & address is less than 4 km -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
 
-                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km --<strong className="text-yellow-400 font-semibold">Serviceable store -- </strong> ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
+                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km -- <strong className="text-yellow-400 font-semibold">Serviceable store -- </strong> ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
 
-                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km --<strong className="text-yellow-400 font-semibold">Not Serviceable store</strong> rider agreed for extra pay -- ask rider to deliver & raise the ticket after delivery</li>
+                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km -- <strong className="text-yellow-400 font-semibold">Not Serviceable store</strong> rider agreed for extra pay -- ask rider to deliver & raise the ticket after delivery</li>
 
-                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km --<strong className="text-yellow-400 font-semibold">Not Serviceable store</strong> rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider </li>
+                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km -- <strong className="text-yellow-400 font-semibold">Not Serviceable store</strong> rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider </li>
 
                     </ul>
                 </div>
