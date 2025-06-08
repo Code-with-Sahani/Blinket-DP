@@ -71,7 +71,7 @@ const AddressIssue = () => {
 
                         <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km -- <strong className="text-yellow-400 font-semibold">Serviceable store -- </strong> ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
 
-                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km -- <strong className="text-yellow-400 font-semibold">Serviceable store -- </strong> <strong className="text-yellow-400 font-semibold">called cx -- </strong> -- ask cx to call rider for the location guidance -- ask rider to ensure delivery -- raise the ticket for the extra distance if travelled</li>
+                        <li className="p-2">Address Issue -- Distance b/w store & address is more than 4 km -- <strong className="text-yellow-400 font-semibold">Serviceable store -- </strong> <strong className="text-yellow-400 font-semibold">called cx -- </strong> ask cx to call rider for the location guidance -- ask rider to ensure delivery -- raise the ticket for the extra distance if travelled</li>
 
 
 
