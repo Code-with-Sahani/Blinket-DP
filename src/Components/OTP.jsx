@@ -9,15 +9,15 @@ const OTP = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
 
-                        <li className='p-2'>UMD due to OTP issue -- called cx for the OTP -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- Cx already shared OTP with DP --  still DP not able to mark delivered --  highlight to concern team -- same share to DP
+                        <li className='p-2'>UMD due to OTP issue -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- Cx already shared OTP with DP --  still DP not able to mark delivered --  highlight to concern team -- same share to DP
                         </li>
-                        <li className="p-2">UMD due to OTP issue -- called cx for the OTP -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- Cx shared OTP with me -- same share to DP -- ask DP to mark delivered now
+                        <li className="p-2">UMD due to OTP issue -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- Cx shared OTP with me -- same share to DP -- ask DP to mark delivered now
                         </li>
-                        <li className="p-2">UMD due to OTP issue -- called cx for the OTP -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP  --  order cancel -- same share to DP
+                        <li className="p-2">UMD due to OTP issue -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP  --  order cancel -- same share to DP
                         </li>
-                        <li className="p-2">UMD due to OTP issue -- called cx for the OTP -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP  --  Order already handover to the cx -- ask DP to connect wth the SM
+                        <li className="p-2">UMD due to OTP issue -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP  --  Order already handover to the cx -- ask DP to connect wth the SM
                         </li>
-                        <li className="p-2">UMD due to OTP issue -- called cx for the OTP -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- ask DP to get OTP from the cx & mark order as delivered from their end
+                        <li className="p-2">UMD due to OTP issue -- called cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- ask DP to get OTP from the cx & mark order as delivered from their end
                         </li>
 
                     </ul>
