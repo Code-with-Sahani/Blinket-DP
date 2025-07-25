@@ -3,7 +3,7 @@ import React from 'react';
 const CDO = () => {
     return (
         <div className='m-2 p-4 text-sm bg-gray-400 text-white rounded-md md:p-6 lg:p-8'>
-            <h2 className="text-center text-2xl font-semibold text-emerald-400 mb-4">CDO - Customer Denying the Order</h2>
+            <h2 className="text-center text-2xl font-bold text-black mb-4">CDO - Customer Denying the Order</h2>
 
             <div className='space-y-4'>
 
