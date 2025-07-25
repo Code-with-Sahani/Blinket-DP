@@ -15,9 +15,9 @@ import Nonlive from './Components/Nonlive'
 
 const App = () => {
   return (
-    <div className='h-full w-full bg-green-400 text-white'>
+    <div className='h-full w-full bg-gray-300 text-white'>
 
-      <header className=' p-4 text-pink-200 text-center text-2xl font-semibold flex gap-100' >Comment Sheet For DP support - Certified by "Sahani 	&#128517;" <h2 className='text-sm mt-3'>Last Updated :08-04-2025 at 22:10:00</h2></header>
+      <header className=' p-4 text-black text-center text-2xl font-bold flex gap-100' >Comment Sheet For DP support - Certified by "Sahani 	&#128517;" <h2 className='text-sm mt-3'>Last Updated :25-07-2025 at 21:10:00</h2></header>
       <DP_Not_Answer />
       <Nonlive/>
       <CNR />
