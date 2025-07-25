@@ -3,7 +3,7 @@ import React from 'react';
 const CDO = () => {
     return (
         <div className='m-2 p-4 text-sm bg-gray-200 text-white rounded-md md:p-6 lg:p-8'>
-            <h2 className="text-center text-2xl font-semibold text-emerald-400 mb-4">CDO - Customer Denying the Order</h2>
+            <h2 className="text-center text-2xl font-bod text-black mb-4">CDO - Customer Denying the Order</h2>
 
             <div className='space-y-4'>
 
@@ -82,16 +82,10 @@ const CDO = () => {
                         <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- call recording available -- cx wants cancel -- order canceled by me -- same shared to DP</li>
                         <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- call recording available -- cx does not want to cancel -- ask DP to follow automation in CDO if cx wants to cancel else deliver the order</li>
                         <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No call recording available -- ask DP to follow automation in CDO if cx wants to cancel else deliver the order</li>
-
                         <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- Error in OS in call recording -- ask DP to follow automation in CDO if cx wants to cancel else deliver the order</li>
                     </ul>
                 </div>
-
-                
             </div>
-
-
-
         </div>
     );
 };
