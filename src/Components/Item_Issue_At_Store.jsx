@@ -2,11 +2,11 @@ import React from 'react';
 
 const Item_Issue_At_Store = () => {
   return (
-    <div className="m-2 p-4 text-sm bg-gray-400 text-white rounded-md md:p-6 lg:p-8">
-      <h2 className="text-center text-2xl font-bold text-black mb-8">Item issue at store</h2>
+    <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
+      <h2 className="text-center text-2xl font-semibold text-emerald-400 mb-8">Item issue at store</h2>
 
       <div className="space-y-4">
-        <div className="p-3 bg-gradient-to-b from-gray-800 to-gray-700 text-green-300 rounded-md shadow">
+        <div className="p-3 bg-gray-700 rounded-md shadow">
           <ul className="list-disc pl-5">
             <li className='p-2'>Item Issues at Store -- not getting order from the store -- guided to SM</li>
             <li className='p-2'>Item issue at store -- Partial item damage -- ask rider to take the item which he received -- go for the delivery if there is any issue, then reconnect us again</li>
