@@ -2,12 +2,12 @@ import React from 'react';
 
 const CDO = () => {
     return (
-        <div className='m-2 p-4 text-sm bg-gray-400 text-white rounded-md md:p-6 lg:p-8'>
-            <h2 className="text-center text-2xl font-bold text-black mb-4">CDO - Customer Denying the Order</h2>
+        <div className='m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8'>
+            <h2 className="text-center text-2xl font-semibold text-emerald-400 mb-4">CDO - Customer Denying the Order</h2>
 
             <div className='space-y-4'>
 
-                <div className="p-3 bg-gradient-to-b from-gray-800 to-gray-700 text-green-300 rounded-md shadow">
+                <div className="p-3 bg-gray-900 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">CDO : Due to Address Issue Updates</h3>
                     <ul className="list-disc pl-5">
                         <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Serviceable
@@ -46,7 +46,7 @@ const CDO = () => {
                     </ul>
                 </div>
 
-                <div className="p-3 bg-gradient-to-b from-gray-800 to-gray-700 text-green-300 rounded-md shadow">
+                <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Cancel due to Mistake Reason:</h3>
                     <ul className="list-disc pl-5">
                         <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx ready to accept -- ask DP to ensure the delivery</li>
@@ -59,7 +59,7 @@ const CDO = () => {
                     </ul>
                 </div>
 
-                <div className="p-3 bg-gradient-to-b from-gray-800 to-gray-700 text-green-300 rounded-md shadow">
+                <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Cancel due to Delay Reason:</h3>
                     <ul className="list-disc pl-5">
                         <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to Delay</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx ready to accept -- ask DP to ensure the delivery</li>
@@ -68,7 +68,7 @@ const CDO = () => {
                     </ul>
                 </div>
 
-                <div className="p-3 bg-gradient-to-b from-gray-800 to-gray-700 text-green-300 rounded-md shadow">
+                <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Guided to Chat Support</h3>
                     <ul className="list-disc pl-5">
                         <li className='p-2'>CDO -- due to item missing/Expired/Rotten/Damage item/wrong item received -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- same info shared to DP</li>
@@ -76,7 +76,7 @@ const CDO = () => {
                     </ul>
                 </div>
 
-                <div className="p-3 bg-gradient-to-b from-gray-800 to-gray-700 text-green-300 rounded-md shadow">
+                <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Customer Not Responsive:</h3>
                     <ul className="list-disc pl-5">
                         <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- call recording available -- cx wants cancel -- order canceled by me -- same shared to DP</li>
@@ -87,11 +87,7 @@ const CDO = () => {
                     </ul>
                 </div>
 
-                
             </div>
-
-
-
         </div>
     );
 };
