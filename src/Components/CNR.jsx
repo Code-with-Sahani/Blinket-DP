@@ -2,10 +2,10 @@ import React from 'react';
 
 const CNR = () => {
     return (
-        <div className="m-2 p-4 text-sm bg-gray-400 text-white rounded-md md:p-6 lg:p-8">
-            <h2 className="text-center text-2xl font-bold text-black mb-8">CNR -- Customer Not Responsive</h2>
+        <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
+            <h2 className="text-center text-2xl  font-bold text-emerald-400 mb-8">CNR -- Customer Not Responsive</h2>
             
-            <div className="p-3 bg-gradient-to-b from-gray-800 to-gray-700 text-green-300 rounded-md shadow">
+            <div className="p-3 bg-gray-700 rounded-md shadow">
                  <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Geo-Fence Not Reached</h3>
                 <ul className="list-disc pl-5">
                     <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence not reached</strong> -- ask to reach there, then call the customer.</li>
@@ -15,7 +15,7 @@ const CNR = () => {
            
             <div className="space-y-4 mt-2">
                 
-                <div className="p-3 bg-gradient-to-b from-gray-800 to-gray-700 text-green-300 rounded-md shadow">
+                <div className="p-3 bg-gray-700 rounded-md shadow">
                      <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Geo-fence Reached Before Automation time</h3>
                     <ul className="list-disc pl-5">
                         <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- ETA+5 mins not crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
@@ -39,7 +39,7 @@ const CNR = () => {
             </div>
            
             <div className="space-y-4 mt-2">
-                <div className="p-3 bg-gradient-to-b from-gray-800 to-gray-700 text-green-300 rounded-md shadow">
+                <div className="p-3 bg-gray-700 rounded-md shadow">
                      <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Geo-fence Reached After Automation</h3>
                     <ul className="list-disc pl-5">
 
