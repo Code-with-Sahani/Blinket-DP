@@ -13,18 +13,21 @@ const OTP = () => {
 
                         <li className='p-2'>UMD due to OTP issue -- called cx for confirmation -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not confirm ❎-- ask rider to deliver and mark the order delivered from his end</li>
 
-                        <li className="p-2">UMD due to OTP issue -- called cx for confirmation -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP with rider -- order cancel -- same share to DP</li>
+                        <li className="p-2">UMD due to OTP issue -- called cx for confirmation -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP with rider -- order is with rider -- order cancel -- same share to DP</li>
 
-                        <li className="p-2">UMD due to OTP issue -- called cx for confirmation -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP with rider -- order cancel and refund TAT shared -- same share to DP
+                        <li className="p-2">UMD due to OTP issue -- called cx for confirmation -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP with rider -- order is with rider -- order cancel and refund TAT shared -- same share to DP
                         </li>
-                        <li className="p-2">UMD due to OTP issue -- called cx for confirmation -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP to rider --  Order already handover to the cx -- ask DP to connect wth the SM</li>
+                        <li className="p-2">UMD due to OTP issue -- called cx for confirmation -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx not sharing OTP with rider --  Order already handover to the cx -- ask DP to connect wth the SM</li>
 
                         <li className="p-2">UMD due to OTP issue -- called cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- ask DP to get OTP from the cx & mark order as delivered from their end</li>
 
                     </ul>
                 </div>
 
+
+
             </div>
+
 
         </div>
     )
