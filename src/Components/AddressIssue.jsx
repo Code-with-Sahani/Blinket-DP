@@ -4,6 +4,43 @@ const AddressIssue = () => {
     return (
         <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md--p-6 lg--p-8">
             <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-1'>Address Issue </h2>
+             <div className="mb-8 border border-yellow-400">
+                <h3 className="text-xl font-semibold text-yellow-400 mb-4  pb-2">
+                    🚚 Rakhi & OFSE Update
+                </h3>
+                <ul className="list-disc pl-5 pr-5 list-inside space-y-4 text-sm leading-relaxed">
+                    <li >
+                        Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- confirm correct address/location -- location updated in rider's app -- ask rider to deliver
+                    </li>
+
+                    <li >
+                        Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- cx not responsive -- location updated in rider's app as rider confirmation -- & ask rider to deliver
+                    </li>
+
+                    <li >
+                        Address issue -- location mismatch -- <span className="text-red-400 font-semibold"> not serviceable </span> -- ask rider to deliver with extra payout -- <span className="text-green-400 font-semibold"> rider agreed </span> -- ask to deliver & raise ticket for extra distance travelled
+                    </li>
+
+                    <li >
+                        Address issue -- location mismatch -- <span className="text-red-400 font-semibold"> not serviceable </span> -- ask rider to deliver with extra payout --<span className="text-green-400 font-semibold"> rider disagree </span> -- order cancel after informing cx & refund TAT shared -- same share to rider
+                    </li>
+
+                    <div className='mb-8 p-2 border border-red-300'><h3 className="text-xl font-semibold text-red-400 mb-4 pb-2">
+                        Updates Failed !!!
+                    </h3>
+                        <ul className="list-disc  list-inside space-y-4 text-sm leading-relaxed">
+                            <li >
+                                Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- confirm correct address/location -- <span className="text-red-400 font-semibold"> location update failed</span> -- ask cx to guided rider for better location guidence -- same share to rider
+                            </li>
+
+                            <li >
+                                Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- cx not responsive -- <span className="text-red-400 font-semibold"> location update failed</span> -- & ask rider to deliver via coordinating with cx
+                            </li>
+                        </ul>
+
+                    </div>
+                </ul>
+            </div>
             <h3 className="text-lg font-semibold text-amber-400 mb-3">Out of Polygon</h3>
             <div className="space-y-4">
                 <div className="p-3 bg-gray-700 rounded-md shadow">
@@ -105,3 +142,4 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
