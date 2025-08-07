@@ -10,6 +10,7 @@ const DP_Not_Answer = () => {
         <div className="p-3 bg-gray-700  rounded-md shadow">
             <ul className="list-disc pl-5">
 
+               <li className='p-2'>Call Received by me -- but DP disconnect the call himself without saying anythings</li>
                 <li className='p-2'>Dp Not Responding -- Call once -- Not responsive </li>
               <li className='p-2'>Dp Not Responding -- Call Twice -- Not responsive </li>
                 <li className='p-2'>Dp Not Responding -- previous Agent already Call him -- hence Call Once -- Not Answering</li>
@@ -25,4 +26,5 @@ const DP_Not_Answer = () => {
 }
 
 export default DP_Not_Answer
+
 
