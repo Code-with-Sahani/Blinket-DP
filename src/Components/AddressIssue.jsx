@@ -5,7 +5,7 @@ const AddressIssue = () => {
         <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md--p-6 lg--p-8">
             <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-1'>Address Issue </h2>
              <div className="mb-8 border border-yellow-400">
-                <h3 className="text-xl font-semibold text-yellow-400 mb-4  pb-2">
+                <h3 className="text-xl font-semibold text-yellow-400 mb-8  pb-2">
                     🚚 Rakhi & OFSE Update
                 </h3>
                 <ul className="list-disc pl-5 pr-5 list-inside space-y-4 text-sm leading-relaxed">
@@ -142,4 +142,5 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
