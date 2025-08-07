@@ -3,8 +3,8 @@ import React from 'react';
 const AddressIssue = () => {
     return (
         <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md--p-6 lg--p-8">
-            <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-1'>Address Issue </h2>
-             <div className="mb-8 border border-yellow-400">
+            <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-4'>Address Issue </h2>
+            <div className="mb-8 border border-yellow-400">
                 <h3 className="text-xl font-semibold text-yellow-400 mb-2 mt-4 pb-2">
                     🚚 Rakhi & OFSE Update
                 </h3>
@@ -89,7 +89,7 @@ const AddressIssue = () => {
                 </div>
 */}
                 <div className="p-3 bg-gray-700 rounded-md shadow">
-                    <h3 className="text-lg font-semibold text-emerald-400 mb-3">Location Issue / calling cx for Guidance</h3>
+                    <h3 className="text-sm font-semibold text-emerald-400 mb-3">Location Issue / calling cx for Guidance</h3>
                     <ul className="list-disc pl-5">
                         <li className="p-2">DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable ot find cx location and wanted to talk with cx </strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- requested cx to Call DP for better location guidance -- same share to DP</li>
                         <li className="p-2">DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable ot find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx said he wanted his order at his pin location -- share same to the DP</li>
@@ -97,12 +97,12 @@ const AddressIssue = () => {
                         <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable ot find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- requested the rider for few more attempt and asked to wait -- asked to follow the automation process after ETA+10mins-- DP agreed</li>
                         <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable ot find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- order canceled -- shared the same with DP</li>
                     </ul>
-                </div> 
+                </div>
 
 
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
-                    <h3 className="text-lg font-semibold text-emerald-400 mb-3">Validating address mismatch</h3>
+                    <h3 className="text-sm font-semibold text-emerald-400 mb-3">Validating address mismatch</h3>
                     <ul className="list-disc pl-5">
                         <li className="p-2">Address Issue -- Distance between <strong className="text-yellow-400 font-semibold"> location & address </strong>  is less than 400 m -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
 
@@ -110,7 +110,7 @@ const AddressIssue = () => {
 
                         <li className="p-2">Address Issue -- Distance between <strong className="text-yellow-400 font-semibold"> location & address </strong>  is less than 400 m --  called cx -- ask cx to call rider for the better location guidance -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
 
-              <li className="p-2">Address Issue -- Distance between <strong className="text-yellow-400 font-semibold"> location & address </strong>  is more than 400 m -- Distance b/w <strong className="text-yellow-400 font-semibold">  store & address </strong>  is less than 4 km -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
+                        <li className="p-2">Address Issue -- Distance between <strong className="text-yellow-400 font-semibold"> location & address </strong>  is more than 400 m -- Distance b/w <strong className="text-yellow-400 font-semibold">  store & address </strong>  is less than 4 km -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
 
 
                         <li className="p-2">Address Issue -- Distance between <strong className="text-yellow-400 font-semibold"> location & address </strong>  is more than 400 m -- Distance b/w <strong className="text-yellow-400 font-semibold">  store & address </strong>  is more than 4 km -- <strong className="text-yellow-400 font-semibold">Serviceable store -- </strong> ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
@@ -126,7 +126,7 @@ const AddressIssue = () => {
                 </div>
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
-                    <h3 className="text-lg font-semibold text-emerald-400 mb-3">Incomplete Address</h3>
+                    <h3 className="text-sm font-semibold text-emerald-400 mb-3">Incomplete Address</h3>
                     <ul className="list-disc pl-5">
                         <li className="p-2">Incomplete address -- mentioned address minor details missing -- called cx -- <strong className="text-yellow-400 font-semibold">cx responsive </strong> -- requested cx to call the rider for guidance -- same share to rider and asked to ensure delivery</li>
 
@@ -142,6 +142,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
