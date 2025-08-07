@@ -4,6 +4,9 @@ const AddressIssue = () => {
     return (
         <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md--p-6 lg--p-8">
             <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-4'>Address Issue </h2>
+            <li className="text-sm border border-red-400 text-center mb-2 mt-4 p-2">
+                Address issue -- ask rider to reach the location then coordinate with cx and then deliver the order -- if there is any issue then reconnect us again
+            </li>
             <div className="mb-8 border border-yellow-400">
                 <h3 className="text-xl font-semibold text-yellow-400 mb-2 mt-4 pb-2">
                     🚚 Rakhi & OFSE Update
