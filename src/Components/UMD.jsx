@@ -7,6 +7,16 @@ const UMD = () => {
             <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-1'>UMD -- Unable to mark Delivered</h2>
 
             {/* Not Checking Geo-fence Section */}
+            <h3 className="text-lg font-semibold text-amber-400 mb-3">New Updating regarding UMD</h3>
+            <div className="space-y-4">
+                <div className="p-3 bg-gray-700 rounded-md shadow">
+                    <ul className="list-disc pl-5">
+                        <li className="p-2">
+                            UMD -- <strong className="text-yellow-300 font-semibold">COD -- payment done </strong> -- mark delivered -- share same to the DP
+                        </li>  
+                    </ul>
+                </div>
+                
             <h3 className="text-lg font-semibold text-amber-400 mb-3">Not Checking Geo-fence</h3>
             <div className="space-y-4">
                 <div className="p-3 bg-gray-700 rounded-md shadow">
@@ -83,3 +93,4 @@ const UMD = () => {
 };
 
 export default UMD;
+
