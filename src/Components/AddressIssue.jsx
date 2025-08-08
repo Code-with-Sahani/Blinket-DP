@@ -21,11 +21,11 @@ const AddressIssue = () => {
                     </li>
 
                     <li >
-                        Address issue -- location mismatch -- <span className="text-red-400 font-semibold"> not serviceable </span> -- ask rider to deliver with extra payout -- <span className="text-green-400 font-semibold"> rider agreed </span> -- ask to deliver & raise ticket for extra distance travelled
+                        Address issue -- location mismatch -- Distance between location & address is more than 400 m -- Distance b/w store & address is more than 4 km <span className="text-red-400 font-semibold"> not serviceable </span> -- ask rider to deliver with extra payout -- <span className="text-green-400 font-semibold"> rider agreed </span> -- ask to deliver & raise ticket for extra distance travelled
                     </li>
 
                     <li >
-                        Address issue -- location mismatch -- <span className="text-red-400 font-semibold"> not serviceable </span> -- ask rider to deliver with extra payout --<span className="text-green-400 font-semibold"> rider disagree </span> -- order cancel after informing cx & refund TAT shared -- same share to rider
+                        Address issue -- location mismatch -- Distance between location & address is more than 400 m -- Distance b/w store & address is more than 4 km  <span className="text-red-400 font-semibold"> not serviceable </span> -- ask rider to deliver with extra payout --<span className="text-green-400 font-semibold"> rider disagree </span> -- order cancel after informing cx & refund TAT shared -- same share to rider
                     </li>
 
                     <div className='mb-8 p-2 border border-red-300'><h3 className="text-xl font-semibold text-red-400 mb-4 pb-2">
@@ -145,6 +145,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
