@@ -33,11 +33,11 @@ const AddressIssue = () => {
                     </h3>
                         <ul className="list-disc  list-inside space-y-4 text-sm leading-relaxed">
                             <li >
-                                Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- confirm correct address/location -- <span className="text-red-400 font-semibold"> location update failed</span> -- ask cx to guided rider for better location guidence -- same share to rider
+                                Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- confirm correct address/location -- <span className="text-red-400 font-semibold"> location update failed/No option to update</span> -- ask cx to guided rider for better location guidence -- same share to rider
                             </li>
 
                             <li >
-                                Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- cx not responsive -- <span className="text-red-400 font-semibold"> location update failed</span> -- & ask rider to deliver via coordinating with cx
+                                Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- cx not responsive -- <span className="text-red-400 font-semibold"> location update failed/No option to update</span> -- & ask rider to deliver via coordinating with cx
                             </li>
                         </ul>
 
@@ -145,6 +145,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
