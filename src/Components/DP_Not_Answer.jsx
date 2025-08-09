@@ -11,7 +11,7 @@ const DP_Not_Answer = () => {
 
             <li className="mb-8 border border-yellow-400 p-2">
               <h3 className="text-xl font-semibold text-yellow-400 mb-2 mt-2 pb-2">
-                🚚 Only for Today ( 09 Aug 2025 )
+                🚚 Only for till ( 10 Aug 2025 )
               </h3>
               <ul className="list-disc pl-5 pr-5 list-inside space-y-2 text-sm leading-relaxed">
                 <li>Call Received by me -- but DP disconnect the call himself without saying anything</li>
@@ -30,6 +30,7 @@ const DP_Not_Answer = () => {
 }
 
 export default DP_Not_Answer
+
 
 
 
