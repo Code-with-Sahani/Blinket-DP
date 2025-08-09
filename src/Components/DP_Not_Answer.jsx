@@ -16,10 +16,7 @@ const DP_Not_Answer = () => {
               <ul className="list-disc pl-5 pr-5 list-inside space-y-2 text-sm leading-relaxed">
                 <li>Call Received by me -- but DP disconnect the call himself without saying anything</li>
                 <li>Dp Not Responding -- Call once -- Not responsive</li>
-             /*   <li>Address issue -- location mismatch -- Distance between store & address is more than 4km -- rider agreed with extra pay -- ask rider to deliver</li>
-               <li>Address issue -- location mismatch -- Distance between store & address is more than 4km -- rider disagreed with extra pay -- order cancel & refund TAT share to cx -- same share to rider</li>
-             <li>Address issue -- location mismatch -- Distance between store & address is more than 4km -- rider disagreed with extra pay -- Cx not responsive -- order cancel -- same share to rider</li>
-              */</ul>
+              </ul>
             </li>
 
             <li>Dp Not Responding -- Call Twice -- Not responsive</li>
@@ -33,6 +30,7 @@ const DP_Not_Answer = () => {
 }
 
 export default DP_Not_Answer
+
 
 
 
