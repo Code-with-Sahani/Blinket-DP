@@ -5,9 +5,7 @@ const UMD = () => {
         <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
             {/* Heading */}
             <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-1'>UMD -- Unable to mark Delivered</h2>
-            {/* New Updating Section */}
-            <h3 className="text-lg font-semibold text-amber-400 mb-3">New Updating regarding UMD</h3>
-            
+           
             {/* Not Checking Geo-fence Section */}
             <h3 className="text-lg font-semibold text-amber-400 mb-3">Not Checking Geo-fence</h3>
             <div className="space-y-4">
@@ -85,5 +83,6 @@ const UMD = () => {
 };
 
 export default UMD;
+
 
 
