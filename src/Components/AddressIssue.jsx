@@ -7,7 +7,7 @@ const AddressIssue = () => {
             <li className="text-sm border border-red-400 text-center mb-2 mt-4 p-2">
                 Address issue -- ask rider to reach the location then coordinate with cx and then deliver the order -- if there is any issue then reconnect us again
             </li>
-            <div className="mb-8 border border-yellow-400">
+            {/* <div className="mb-8 border border-yellow-400">
                 <h3 className="text-xl font-semibold text-yellow-400 mb-2 mt-4 pb-2">
                     🚚 Rakhi & OFSE Update
                 </h3>
@@ -43,7 +43,7 @@ const AddressIssue = () => {
 
                     </div>
                 </ul>
-            </div>
+            </div> */}
             <h3 className="text-lg font-semibold text-amber-400 mb-3">Out of Polygon</h3>
             <div className="space-y-4">
                 <div className="p-3 bg-gray-700 rounded-md shadow">
@@ -145,12 +145,3 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
-
-
-
-
-
-
-
-
-
