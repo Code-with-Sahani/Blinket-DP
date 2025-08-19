@@ -47,10 +47,10 @@ const UMD = () => {
                             UMD -- <strong className="text-yellow-300 font-semibold">DP not marked Pickup nor Geo-fence</strong> -- ask DP to first mark Pickup then reach Geo-fence -- then try to mark delivered if any issue then connect us again -- DP agreed
                         </li>
                         <li className="p-2">
-                            UMD -- <strong className="text-yellow-300 font-semibold">Geo-fence not reached</strong> -- ask to reached at Geo-fence -- then try to mark delivered if any issue then connect us again -- DP agreed
+                            UMD -- <strong className="text-yellow-300 font-semibold">Geo-fence not reached nor Doorstep nor low confidence</strong> -- ask to reached at Geo-fence -- then try to mark delivered if any issue then connect us again -- DP agreed
                         </li>
                         <li className="p-2">
-                            UMD -- <strong className="text-yellow-300 font-semibold">Geo-fence not reached</strong> -- DP requested to call cx -- denied to call bcos Geo-fence not reached -- ask to reached -- then try to mark delivered if any issue then connect us again -- DP agreed
+                            UMD -- <strong className="text-yellow-300 font-semibold">Geo-fence not reached nor Doorstep nor low confidence</strong> -- DP requested to call cx -- denied to call bcos Geo-fence not reached -- ask to reached -- then try to mark delivered if any issue then connect us again -- DP agreed
                         </li>
                     </ul>
                 </div>
@@ -83,6 +83,7 @@ const UMD = () => {
 };
 
 export default UMD;
+
 
 
 
