@@ -19,7 +19,8 @@ const DP_Not_Answer = () => {
               </ul>
             </li> */}
 
-            <li>Dp Not Responding -- Call Twice -- Not responsive</li>
+             <li>Call Received by me -- but DP disconnect the call himself without saying anything</li>
+            <li>Dp Not Responding -- Call Once -- Not responsive</li>
             <li>Dp Not Responding -- previous Agent already Call him -- hence Call Once -- Not Answering</li>
 
           </ul>
@@ -30,6 +31,7 @@ const DP_Not_Answer = () => {
 }
 
 export default DP_Not_Answer
+
 
 
 
