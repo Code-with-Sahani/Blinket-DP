@@ -5,9 +5,14 @@ const UMD = () => {
         <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
             {/* Heading */}
             <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-1'>UMD -- Unable to mark Delivered</h2>
-             <li className="p-2">
+              <div className="p-3 bg-gray-700 rounded-md shadow">
+                    <ul className="list-disc pl-5">
+                        <li className="p-2">
                             UMD -- <strong className="text-yellow-300 font-semibold">COD order</strong> -- Payment conmfirmation done from rider -- mark delivered -- share same to the DP
                         </li>
+                       
+                    </ul>
+                </div>
             {/* Not Checking Geo-fence Section */}
             <h3 className="text-lg font-semibold text-amber-400 mb-3">Not Checking Geo-fence</h3>
             <div className="space-y-4">
@@ -85,6 +90,7 @@ const UMD = () => {
 };
 
 export default UMD;
+
 
 
 
