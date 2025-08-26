@@ -80,20 +80,20 @@ const CNR = () => {
             </div>
 
             <div className="space-y-4 mt-2">
-                <h2 className="text-center text-2xl  font-bold text-emerald-400 mb-8">BISTRO ORDER -- CNR</h2>
+                <h2 className="text-center text-2xl  font-bold text-emerald-400 mb-8">BISTRO ORDER -- Custoemr not responding</h2>
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Before Cancelation Time</h3>
                     <ul className="list-disc pl-5">
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- before ETA+12 mins -- 2 CNR attempt not available -- ask rider to make another call attempt </li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- before ETA+12 mins -- 2 CNR attempt not available -- ask rider to make another call attempt </li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- before ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx responsive</strong> -- same shared with rider</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- before ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx responsive</strong> -- same shared with rider</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- before ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx responsive</strong> -- ask cx to call rider -- same shared with rider</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- before ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx responsive</strong> -- ask cx to call rider -- same shared with rider</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- before ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx not responsive</strong> -- ask rider to follow automation till cancellation time </li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- before ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx not responsive</strong> -- ask rider to follow automation till cancellation time </li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- before ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx not responsive</strong> -- CNR automation followed -- ask rider to wait till Cancellation time </li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- before ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx not responsive</strong> -- CNR automation followed -- ask rider to wait till Cancellation time </li>
 
                     </ul>
                 </div>
@@ -102,13 +102,13 @@ const CNR = () => {
                     <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">After Cancelation Time</h3>
                     <ul className="list-disc pl-5">
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- After ETA+12 mins -- 2 CNR attempt not available -- ask rider to make another call attempt </li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- After ETA+12 mins -- 2 CNR attempt not available -- ask rider to make another call attempt </li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- after ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx responsive</strong> -- same shared with rider</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- after ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx responsive</strong> -- same shared with rider</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- after ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx responsive</strong> -- ask cx to call rider -- same shared with rider</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- after ETA+12 mins -- 2 CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Cx responsive</strong> -- ask cx to call rider -- same shared with rider</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached</strong> -- after ETA+12 mins -- 2 CNR attempt available -- call Cx twice-- <strong className='text-yellow-300 font-semibold'>Cx not responsive </strong> -- order cancel -- sameshare to rider </li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- after ETA+12 mins -- 2 CNR attempt available -- call Cx twice-- <strong className='text-yellow-300 font-semibold'>Cx not responsive </strong> -- order cancel -- sameshare to rider </li>
 
                     </ul>
                 </div>
