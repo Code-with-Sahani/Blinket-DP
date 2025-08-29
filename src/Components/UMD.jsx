@@ -8,7 +8,7 @@ const UMD = () => {
               <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
                         <li className="p-2">
-                            UMD -- <strong className="text-yellow-300 font-semibold">COD order</strong> -- Payment confirmation done from rider -- mark delivered -- share same to the DP
+                            UMD -- <strong className="text-yellow-300 font-semibold">COD order</strong> -- Reason -- Payment confirmation done from rider -- mark delivered -- share same to the DP
                         </li>
                        
                     </ul>
@@ -90,6 +90,7 @@ const UMD = () => {
 };
 
 export default UMD;
+
 
 
 
