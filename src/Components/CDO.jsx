@@ -80,10 +80,10 @@ const CDO = () => {
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Customer Not Responsive:</h3>
                     <ul className="list-disc pl-5">
                         <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- call recording available -- cx wants cancel -- order canceled by me -- same shared to DP</li>
-                        <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- call recording available -- cx does not want to cancel -- ask DP to follow automation in CDO if cx wants to cancel else deliver the order</li>
-                        <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No call recording available -- ask DP to follow automation in CDO if cx wants to cancel else deliver the order</li>
+                        <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- call recording available -- cx does not want to cancel -- ask DP to follow automation in CNR if cx wants to cancel else deliver the order</li>
+                        <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No call recording available -- ask DP to follow automation in CNR if cx wants to cancel else deliver the order</li>
 
-                        <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- Error in OS in call recording -- ask DP to follow automation in CDO if cx wants to cancel else deliver the order</li>
+                        <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- Error in OS in call recording -- ask DP to follow automation in CNR if cx wants to cancel else deliver the order</li>
                     </ul>
                 </div>
 
@@ -93,4 +93,5 @@ const CDO = () => {
 };
 
 export default CDO;
+
 
