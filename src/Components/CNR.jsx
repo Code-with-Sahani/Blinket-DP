@@ -18,27 +18,19 @@ const CNR = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Geo-Fence/ Doorstep reached Before Automation time</h3>
                     <ul className="list-disc pl-5">
-                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
+                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins not crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
 
-                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- requested the rider for a few more attempts and wait -- asked to follow the automation process after ETA+5 mins.</li>
-
-                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- call Cx -- <strong className='text-yellow-300 font-semibold'>Call forwarded to Voice-mail</strong> -- Order Cancel -- same shared with rider</li>
-
-
-                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- call Cx -- <strong className='text-yellow-300 font-semibold'>called cx twice & Swtiched off</strong> -- Order Cancel -- same shared with rider</li>
+                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins not crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- ask rider to follow automation till ETA +12 min along with some call attempt</li>
 
                         <hr className='mb-5 mt-5' />
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt Not available ❎</strong> -- ask rider to make some call attempt then reconnect us if not responsive</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt Not available ❎</strong> -- ask rider to make some call attempt then reconnect us if not responsive</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- ask cx to call rider -- same shared with rider.</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- ask cx to call rider -- same shared with rider.</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx Not responsive</strong> -- asked to follow the automation process after ETA+5 mins </li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx Not responsive</strong> -- ask rider to follow automation till ETA +12 min along with some call attempt </li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- call Cx -- <strong className='text-yellow-300 font-semibold'>Call forwarded to Voice-mail</strong> -- Order Cancel -- same shared with rider</li>
-
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins not crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- call Cx -- <strong className='text-yellow-300 font-semibold'>called cx twice & Swtiched off</strong> -- Order Cancel -- same shared with rider</li>
                     </ul>
                 </div>
             </div>
@@ -48,38 +40,30 @@ const CNR = () => {
                     <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Geo-Fence/ Doorstep reached After Automation</h3>
                     <ul className="list-disc pl-5">
 
-                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
+                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
 
-                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- asked to follow the automation process after ETA+5 mins.</li>
+                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- ask rider to follow automation till ETA +12 min along with some call attempt </li>
 
-                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- call Cx -- <strong className='text-yellow-300 font-semibold'>Call forwarded to Voice-mail</strong> -- Order Cancel -- same shared with rider</li>
-
-                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- call Cx -- <strong className='text-yellow-300 font-semibold'>called twice but Swtiched off</strong> -- Order Cancel -- same shared with rider</li>
 
                         <hr className='mb-5 mt-5' />
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt Not available ❎</strong> -- ask rider to make some call attempt and then follow automation in CNR </li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt Not available ❎</strong> -- ask rider to make some call attempt and then follow automation in CNR </li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- CNR attempt not available -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- shared the same with DP.</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- CNR attempt not available -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- shared the same with DP.</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- CNR attempt not available -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- asked to follow the automation process.</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- CNR attempt not available -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- asked to follow the automation process.</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- <strong className='text-yellow-300 font-semibold'>Call Attempt available ✅</strong> -- CNR attempt not available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Call forwarded to Voice-mail</strong> -- Order Cancel -- same shared with rider</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- CNR attempt available -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- shared the same with DP.</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins crossed -- CNR attempt available ✅-- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- shared the same with DP.</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- CNR attempt available -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- order canceled -- shared the same with DP.</li>
-
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Call forwarded to Voice-mail</strong> -- Order Cancel -- same shared with rider</li>
-
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+5 mins crossed -- CNR attempt available -- call Cx -- <strong className='text-yellow-300 font-semibold'>Called cx twice but swtiched off</strong> -- Order Cancel -- same shared with rider</li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins crossed -- CNR attempt available ✅-- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- order canceled -- shared the same with DP.</li>
 
 
                     </ul>
                 </div>
             </div>
 
-            <div className="space-y-4 mt-2">
+            {/* <div className="space-y-4 mt-2">
                 <h2 className="text-center text-2xl  font-bold text-emerald-400 mb-8">BISTRO ORDER -- Custoemr not responding</h2>
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Before Cancelation Time</h3>
@@ -109,7 +93,7 @@ const CNR = () => {
                     <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">After Cancelation Time</h3>
                     <ul className="list-disc pl-5">
 
-                     <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins  crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
+                        <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins  crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
 
                         <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins crossed -- call Cx twice -- <strong className='text-red-400 font-semibold'>Cx not responsive/Call forwarded to Voice-mail/ Swtiched off</strong> -- order cancel -- same share to rider </li>
 
@@ -125,7 +109,7 @@ const CNR = () => {
 
                     </ul>
                 </div>
-            </div>
+            </div> */}
 
 
         </div>
@@ -133,5 +117,6 @@ const CNR = () => {
 };
 
 export default CNR;
+
 
 
