@@ -71,7 +71,7 @@ const CDO = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Guided to Chat Support</h3>
                     <ul className="list-disc pl-5">
-                        <li className='p-2'>CDO -- due to item missing/Expired/Rotten/Damage item/wrong item received -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- same info shared to DP</li>
+                        <li className='p-2'>CDO -- due to item missing/Expired/Rotten/Damage item/wrong item received -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- cx agreed to connect with his/her support -- same info shared to DP</li>
                         <li className='p-2'>CDO -- due to item missing/Expired/Rotten/Damage item/wrong item received -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- asked cx to connect their chat support -- but cx insists us to cancel -- order canceled by me -- same info shared to DP</li>
                     </ul>
                 </div>
@@ -93,5 +93,6 @@ const CDO = () => {
 };
 
 export default CDO;
+
 
 
