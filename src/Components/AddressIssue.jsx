@@ -94,11 +94,13 @@ const AddressIssue = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-sm font-semibold text-emerald-400 mb-3">Location Issue / calling cx for Guidance</h3>
                     <ul className="list-disc pl-5">
-                        <li className="p-2">DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable ot find cx location and wanted to talk with cx </strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- requested cx to Call DP for better location guidance -- same share to DP</li>
-                        <li className="p-2">DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable ot find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx said he wanted his order at his pin location -- share same to the DP</li>
-                        <li className="p-2">DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable ot find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx said he wanted his order at his address & requested cx to call DP for the better location guidance -- pitch extra payout -- share same to the DP</li>
-                        <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable ot find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- requested the rider for few more attempt and asked to wait -- asked to follow the automation process after ETA+ 5mins-- DP agreed</li>
-                        <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable ot find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- order canceled -- shared the same with DP</li>
+                        <li className="p-2">DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx </strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- requested cx to Call DP for better location guidance -- same share to DP</li>
+                        <li className="p-2">DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx said he wanted his order at his pin location -- share same to the DP</li>
+                        <li className="p-2">DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx said he wanted his order at his address & requested cx to call DP for the better location guidance -- pitch extra payout -- share same to the DP</li>
+                        <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> - -- ask rider to follow automation till ETA +12 min along with some call attempt -- DP agreed</li>
+                        
+                        <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min not crossed -- -- shared the same with DP</li>
+                        <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min crossed -- order canceled -- shared the same with DP</li>
                     </ul>
                 </div>
 
@@ -135,7 +137,10 @@ const AddressIssue = () => {
 
                         <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- requested the rider for few more attempt and asked to wait -- asked to follow the automation process after ETA+ 5mins-- DP agreed</li>
 
-                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- order canceled -- shared the same with DP</li>
+                        
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min not crossed -- ask rider to make some more call attempt till ETA +12 min </li>
+                      
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min crossed -- order canceled -- shared the same with DP</li>
                     </ul>
                 </div>
 
@@ -145,3 +150,4 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
