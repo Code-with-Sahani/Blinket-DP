@@ -135,7 +135,7 @@ const AddressIssue = () => {
                     <ul className="list-disc pl-5">
                         <li className="p-2">Incomplete address -- mentioned address minor details missing -- called cx -- <strong className="text-yellow-400 font-semibold">cx responsive </strong> -- requested cx to call the rider for guidance -- same share to rider and asked to ensure delivery</li>
 
-                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- requested the rider for few more attempt and asked to wait -- asked to follow the automation process after ETA+ 5mins-- DP agreed</li>
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- ETA+12 mins not crossed -- Call Attempt available ✅ -- call Cx -- Cx Not responsive -- ask rider to follow automation till ETA +12 min along with some call attempt</li>
 
                         
                         <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min not crossed -- ask rider to make some more call attempt till ETA +12 min </li>
@@ -150,4 +150,5 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
