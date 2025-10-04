@@ -15,20 +15,20 @@ const CDO = () => {
                         </li>
 
                         <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Serviceable
-                        </strong> -- ask rider to deliver at cx correct address -- rider denied and adamant -- try to convince cx as well but convinced -- order cancel by informing the cx -- same share to rider</li>
+                        </strong> -- ask rider to deliver at cx correct address -- rider denied and adamant -- order cancel by informing the cx -- same share to rider</li>
 
                         <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Serviceable
-                        </strong> -- ask rider to deliver at cx correct address -- rider denied and adamant -- try to convince cx as well but convinced -- order cancel -- refund TAT sahre to cx -- same share to rider</li>
+                        </strong> -- ask rider to deliver at cx correct address -- rider denied and adamant -- order cancel -- refund TAT sahre to cx -- same share to rider</li>
                     </ul>
                     <br />
 
                     <h3 className="text-md font-semibold text-emerald-300 mb-4 mt-4">CDO : Address wrong // Other State or District </h3>
                     <ul className="list-disc pl-5">
                         <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Not Serviceable
-                        </strong> -- other state/District -- try to convince cx as well but convinced -- order cancel by informing the cx -- same share to rider</li>
+                        </strong> -- other state/District -- order cancel by informing the cx -- same share to rider</li>
 
                         <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Not Serviceable
-                        </strong> -- other state/District -- try to convince cx as well but convinced -- order cancel -- order cancel -- refund TAT sahre to cx -- same share to rider</li>
+                        </strong> -- other state/District -- order cancel -- order cancel -- refund TAT sahre to cx -- same share to rider</li>
 
                         <hr className=' mt-8 mb-8' />
 
@@ -37,10 +37,10 @@ const CDO = () => {
                         </li>
 
                         <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Not Serviceable
-                        </strong> -- ask rider to deliver at cx correct address -- rider disagree with the extra payout -- try to convince cx as well but convinced -- order cancel by informing cx -- same share to rider </li>
+                        </strong> -- ask rider to deliver at cx correct address -- rider disagree with the extra payout -- order cancel by informing cx -- same share to rider </li>
 
                         <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Not Serviceable
-                        </strong> -- ask rider to deliver at cx correct address -- rider disagree with the extra payout -- try to convince cx as well but convinced -- order cancel -- refund TAT sahre to cx -- same share to rider</li>
+                        </strong> -- ask rider to deliver at cx correct address -- rider disagree with the extra payout -- order cancel -- refund TAT sahre to cx -- same share to rider</li>
 
 
                     </ul>
@@ -49,21 +49,21 @@ const CDO = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Cancel due to Mistake Reason:</h3>
                     <ul className="list-disc pl-5">
-                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx ready to accept -- ask DP to ensure the delivery</li>
+                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- cx already ready to accept -- ask DP to ensure the delivery</li>
 
-                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- <strong className='text-yellow-300 font-semibold'>consent given by cx</strong> -- cancel order -- same info shared to DP</li>
+                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- <strong className='text-yellow-300 font-semibold'>consent given by cx</strong> -- cancel order -- same info shared to DP</li>
 
-                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- <strong className='text-yellow-300 font-semibold'>consent given by cx</strong> -- cancel order & refund TAT shared -- same info shared to DP</li>
+                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- <strong className='text-yellow-300 font-semibold'>consent given by cx</strong> -- cancel order & refund TAT shared -- same info shared to DP</li>
 
-                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- <strong className='text-yellow-300 font-semibold'>consent not given by cx</strong> -- ask DP to follow automation in CDO</li>
+                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- <strong className='text-yellow-300 font-semibold'>consent not given by cx</strong> -- ask DP to follow automation in CDO</li>
                     </ul>
                 </div>
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Cancel due to Delay Reason:</h3>
                     <ul className="list-disc pl-5">
-                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to Delay</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx ready to accept -- ask DP to ensure the delivery</li>
-                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to Delay</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- tried to convince customer -- cx not ready to accept -- cancel the order & Refund TAT shared -- same info shared to DP</li>
+                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to Delay</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- cx already ready to accept -- ask DP to ensure the delivery</li>
+                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to Delay</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- cx not ready to accept -- cancel the order & Refund TAT shared -- same info shared to DP</li>
 
                     </ul>
                 </div>
@@ -93,6 +93,7 @@ const CDO = () => {
 };
 
 export default CDO;
+
 
 
 
