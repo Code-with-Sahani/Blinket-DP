@@ -14,7 +14,8 @@ const PaymentIssue = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul>
                         <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">failed</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- convinced to pay in cash -- cx agreed -- asked DP to collect cash from cx and deliver the order </li>
-                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">failed</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx refused to pay in cash -- refund within 6 hours if any debited -- order cancelled -- shared with DP </li>
+                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">failed</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx refused to pay in cash -- refund within 6 hours if any debited -- order still with rider -- order cancelled -- shared with DP </li>
+                         <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">failed</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx refused to pay in cash -- refund within 6 hours if any debited -- order already handed over -- asked DP to connect with SM </li>
                     </ul>
                 </div>
 
@@ -64,4 +65,5 @@ const PaymentIssue = () => {
 }
 
 export default PaymentIssue;
+
 
