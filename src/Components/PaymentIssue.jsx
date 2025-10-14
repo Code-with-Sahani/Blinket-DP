@@ -20,9 +20,16 @@ const PaymentIssue = () => {
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul>
-                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- convinced to pay in cash -- cx agreed -- refund within 6 hours -- asked DP to collect cash and deliver </li>
+
+                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending -- </strong>asked rider to Click on "Get help" -- and then upload cx's payment proof -- then ask to click "cancelling QR payment" -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- inform cx you get an notification regrading payment refund -- cx agree to pay in cash -- asked DP to collect cash and deliver </li>
+
+                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending -- </strong>asked rider to Click on "Get help" -- and then upload cx's payment proof -- then ask to click "cancelling QR payment" -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- inform cx you get an notification regrading payment refund -- cx not agree to pay in cash -- order still with rider -- order cancelled -- shared with DP </li>
+
+                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending -- </strong>asked rider to Click on "Get help" -- and then upload cx's payment proof -- then ask to click "cancelling QR payment" -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- inform cx you get an notification regrading payment refund -- cx not agree to pay in cash -- order already handed over -- asked DP to connect with SM </li>
+
+                        {/* <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- convinced to pay in cash -- cx agreed -- refund within 6 hours -- asked DP to collect cash and deliver </li>
                         <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx refused to pay in cash -- order still with rider -- order cancelled -- shared with DP </li>
-                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx refused to pay in cash -- order already handed over -- asked DP to connect with SM </li>
+                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx refused to pay in cash -- order already handed over -- asked DP to connect with SM </li> */}
                     </ul>
                 </div>
 
@@ -38,17 +45,18 @@ const PaymentIssue = () => {
                     <ul>
                         <li className="p-2">Payment Issue -- <strong className="text-amber-300 font-semibold">No inactive i.e. COD order</strong> -- asked DP to collect cash and ensure delivery </li>
                         <li className="p-2">Payment Issue -- <strong className="text-amber-300 font-semibold">No inactive i.e. COD order</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- confirmed cx where he paid (rider Personal QR) -- requested DP to manage </li>
-                        <li className="p-2">Payment Issue -- <strong className="text-amber-300 font-semibold">No inactive i.e. COD order</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx claimed that he already paid over Blinket QR -- but it is not visible on OS -- requested cx to connect chat support -- order is with rider -- order canceled -- same shared with DP </li>
-                        <li className="p-2">Payment Issue -- <strong className="text-amber-300 font-semibold">No inactive i.e. COD order</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx claimed that he already paid over Blinket QR -- but it is not visible on OS -- requested cx to connect chat support -- order already handed over to cx -- ask DP to connect SM </li>
+                        <li className="p-2">Payment Issue -- <strong className="text-amber-300 font-semibold">No inactive i.e. COD order</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx claimed that he already paid over Blinket QR -- but it is not visible on OS -- requested cx to connect chat support -- cx agree to talk with support -- ask rider to wait for few moment anfd if any any issue then reconnet us again </li>
+                        <li className="p-2">Payment Issue -- <strong className="text-amber-300 font-semibold">No inactive i.e. COD order</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx claimed that he already paid over Blinket QR -- but it is not visible on OS -- requested cx to connect chat support -- but cx denied -- order is with rider -- order cacnel -- same share to rider </li>
+                        <li className="p-2">Payment Issue -- <strong className="text-amber-300 font-semibold">No inactive i.e. COD order</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx claimed that he already paid over Blinket QR -- but it is not visible on OS -- requested cx to connect chat support -- but cx denied -- order already handed over to cx -- ask DP to connect SM </li>
                     </ul>
                 </div>
 
                 <h3 className="text-lg font-semibold text-emerald-400 mt-5">Customer not Responsive</h3>
                 <div className="p-3 bg-gray-600 rounded-md shadow">
-                 <ul>
-                 <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending/No Inactive</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- cx refused to pay in cash as said by DP -- order still with rider -- order cancelled -- shared with DP </li>
-                 <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending/No Inactive</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- cx refused to pay in cash as said by DP -- order already handed over -- asked DP to connect with SM </li>
-                 </ul>
+                    <ul>
+                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending/No Inactive</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- cx refused to pay in cash as said by DP -- order still with rider -- order cancelled -- shared with DP </li>
+                        <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending/No Inactive</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- cx refused to pay in cash as said by DP -- order already handed over -- asked DP to connect with SM </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -56,3 +64,4 @@ const PaymentIssue = () => {
 }
 
 export default PaymentIssue;
+
