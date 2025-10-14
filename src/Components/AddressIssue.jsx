@@ -2,14 +2,27 @@ import React from 'react';
 
 const AddressIssue = () => {
     return (
-        <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md--p-6 lg--p-8">
+        <div className="m-2 p-4 text-sm font-serif bg-gray-800 text-white rounded-md -p-6 lg--p-8">
             <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-4'>Address Issue </h2>
-            <li className="text-sm border border-red-400 text-center mb-2 mt-4 p-2">
-                Address issue -- validating Distance point -- ask rider to reach the location then coordinate with cx and then deliver the order -- if there is any issue then reconnect us again
-            </li>
-             <li className="text-sm border border-red-400 text-center mb-2 mt-4 p-2">
+
+             <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
+                <p className="text-sm font-serif  mb-2 mt-4 p-2">
+                    Address issue -- location mismatched found -- rider wanted to know where he has to go -- called cx -- ask cx to call rider for the correct location guidance -- same share to rider
+                </p>
+
+                <p className="text-sm font-serif  mb-2 mt-4 p-2">
+                    Address issue -- location mismatched found -- rider wanted to know where he has to go -- called cx -- cx not responsive -- ask rider to reach at given cx's location -- ask rider to follow the automation process & guide the steps
+                </p>
+
+                <p className="text-sm font-serif  mb-2 mt-4 p-2">
                 Rider adamant and not ready to go at address & agree to beer penalty -- order cancel by informing cx -- refund TAT shared as well to cx -- same share to rider
-            </li>
+            </p>
+            </div>
+
+            <p className="text-sm font-serif border border-green-400 mb-2 mt-4 p-2">
+                Address issue -- I don't know the pin location order -- ask rider to reach the delivery area then coordinate with cx and then deliver the order -- if there is any issue then reconnect us again
+            </p>
+
             {/* <div className="mb-8 border border-yellow-400">
                 <h3 className="text-xl font-semibold text-yellow-400 mb-2 mt-4 pb-2">
                     🚚 Rakhi & OFSE Update
@@ -94,18 +107,18 @@ const AddressIssue = () => {
                     </ul>
                 </div>
 */}
-                <div className="p-3 bg-gray-700 rounded-md shadow">
+                {/* <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-sm font-semibold text-emerald-400 mb-3">Location Issue / calling cx for Guidance</h3>
                     <ul className="list-disc pl-5">
                         <li className="p-2">DP confused Location issue -- validating Distance point -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx </strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- requested cx to Call DP for better location guidance -- same share to DP</li>
                         <li className="p-2">DP confused Location issue -- validating Distance point -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx said he wanted his order at his pin location -- share same to the DP</li>
                         <li className="p-2">DP confused Location issue -- validating Distance point -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx said he wanted his order at his address & requested cx to call DP for the better location guidance -- pitch extra payout -- share same to the DP</li>
                         <li className='p-2'>DP confused Location issue -- validating Distance point -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> - -- ask rider to follow automation till ETA +12 min along with some call attempt -- DP agreed</li>
-                        
+
                         <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min not crossed -- -- shared the same with DP</li>
                         <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min crossed -- order canceled -- shared the same with DP</li>
                     </ul>
-                </div>
+                </div> */}
 
 
 
@@ -140,9 +153,9 @@ const AddressIssue = () => {
 
                         <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- ETA+12 mins not crossed -- Call Attempt available ✅ -- call Cx -- Cx Not responsive -- ask rider to follow automation till ETA +12 min along with some call attempt</li>
 
-                        
+
                         <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min not crossed -- ask rider to make some more call attempt till ETA +12 min </li>
-                      
+
                         <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min crossed -- order canceled -- shared the same with DP</li>
                     </ul>
                 </div>
@@ -153,6 +166,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
