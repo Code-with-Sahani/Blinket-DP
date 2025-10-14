@@ -20,7 +20,8 @@ const DP_Not_Answer = () => {
             </li> */}
             
             <li>Dp Not Responding -- Call Once -- Not responsive</li>
-            <li>Dp Not Responding -- previous Agent already Call him -- hence Call Once -- Not Answering</li>
+            <li>Dp Not Responding -- calling twice -- Not responsive overall</li>
+            <li>Dp Not Responding -- calling twice -- Not responsive overall/blank call both</li>
 
           </ul>
         </div>
@@ -30,6 +31,7 @@ const DP_Not_Answer = () => {
 }
 
 export default DP_Not_Answer
+
 
 
 
