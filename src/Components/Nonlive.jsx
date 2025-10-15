@@ -10,14 +10,18 @@ const Nonlive = () => {
         <div className="p-3 bg-gray-700 rounded-md shadow">
           <ul className="list-disc pl-5">
             <li className='p-2'>Dp said they don't had an issue now - call close </li>
+            
             <li className='p-2'>Non live order - cant able to coordinate with DP  - language issues - call close </li>
             <li className='p-2'>Dp wanted to know about the extra pay -- explain & ask to raise the ticket after delivery - call close </li>
             <br></br>
             <li className='p-2'>Dp stated that by mistake order marked delviered -- and wanted the cx details -- denied to share & requested to connect SM for better help - call close </li>
             <li className='p-2'> Non Live order related - batch order - wanted to know that they delivered the 2nd order first - ask to delivered the order in sequence which show in his app - call close</li>
             <br></br>
-            <li className='p-2'>-- call Cx -- Cx responsive -- cx wanted to cancel this order -- pushback given but not agreed to -- order canceled -- same share to rider  </li>
 
+            <li className='p-2'>-- call Cx -- Cx responsive -- cx wanted to cancel this order -- pushback given but not agreed to -- order canceled -- same share to rider  </li>
+            <br></br>
+             <li className='p-2'>Non Live order related -- cx said he/she did come in the next x min but till now not came yet -- ETA+ 12 min not cross -- called cx -- cx not responsive -- call Cx -- Cx Not responsive -- ask rider to follow automation till ETA +12 min along with some call attempt </li>
+             <li className='p-2'>Non Live order related -- cx said he/she did come in the next x min but till now not came yet -- ETA+ 12 min not cross -- called cx -- cx responsive -- cx said her agent reached at gate in the next 2 min  - same share to rider  & ask to ensure delivery</li>
           </ul>
         </div>
 
@@ -29,3 +33,4 @@ const Nonlive = () => {
 }
 
 export default Nonlive
+
