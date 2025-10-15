@@ -11,6 +11,8 @@ const Return_Replacement = () => {
                         <li className='p-2'>RPU -- rider stated that cx returning an open/ damage/ used/ wrong product -- inform the rider that was checked by cx support already -- requested to collect the same and submit it at store</li>
                         <li className='p-2'>Pickup order/ Redelivery-CNR -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- share same to DP & ensure pickup/Redelivery </li>
 
+                        <li className="p-2">Pickup order/ Redelivery-CNR -- called cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong>  -- ask rider to wait till ETA +12 min i.e. 3:33 PM and try to make some more call attempts</li>
+                       
                         <li className="p-2">Pickup order/ Redelivery-CNR -- called cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- order cancel -- same share to DP</li>
                        
                         <li className="p-2">Pickup order/ Redelivery-CDO -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx do not want to return -- order cancel -- share same to DP</li>
@@ -32,3 +34,4 @@ const Return_Replacement = () => {
 }
 
 export default Return_Replacement
+
