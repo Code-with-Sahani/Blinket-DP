@@ -23,9 +23,10 @@ const BuddyRider = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Order weight less than 20 Kg :</h3>
                     <ul className="list-disc pl-5">
-
-                        <li className='p-2'>DP requested BR -- 2-wheeler -- <strong className='text-yellow-300 font-semibold'>18 Kg</strong> -- tried to convince to deliver itself -- DP convinced -- asked to delivered as soon as possible</li>
-                        <li className='p-2'>DP requested BR -- 2-wheeler -- tried to convince to deliver itself -- not convinced -- highlight to concern team -- asked DP to wait for call back from concern team</li>
+                         <li className='p-2'>DP requested BR -- 2-wheeler -- <strong className='text-yellow-300 font-semibold'>18 Kg</strong> -- tried to convince to deliver itself -- DP convinced -- asked to delivered as soon as possible</li>
+                         <li className='p-2'>DP requested BR -- 2-wheeler -- <strong className='text-yellow-300 font-semibold'> __ Kg</strong> -- enroute -- No Buddy assigned -- hence assigned 1 BR by me -- share same to DP</li>
+                        
+                         <li className='p-2'>DP requested BR -- 2-wheeler -- tried to convince to deliver itself -- not convinced -- highlight to concern team -- asked DP to wait for call back from concern team</li>
 
                     </ul>
                 </div>
@@ -70,4 +71,5 @@ const BuddyRider = () => {
 }
 
 export default BuddyRider
+
 
