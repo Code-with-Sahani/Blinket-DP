@@ -5,7 +5,7 @@ const BuddyRider = () => {
         <div className='m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8'>
             <h2 className="text-center text-2xl font-semibold text-emerald-400 mb-1">Buddy Rider Assignment</h2>
 
-             <p className="text-sm font-serif border border-green-400 mb-4 mt-6 p-2">
+             <p className="text-sm border border-green-400 mb-4 mt-6 p-2">
                 <h3 className="text-center font-semibold text-yellow-400 mb-1"> Update only 16-22 OCT 2025 </h3>
                  <br></br>
                  <p className='p-2'>DP requested BR -- 2-wheeler -- <strong className='text-yellow-300 font-semibold'> 9 Kg</strong> -- enroute -- No Buddy assigned -- hence assigned 1 BR by me -- share same to DP</p>
@@ -77,6 +77,7 @@ const BuddyRider = () => {
 }
 
 export default BuddyRider
+
 
 
 
