@@ -5,7 +5,7 @@ const CNR = () => {
         <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
             <h2 className="text-center text-2xl  font-bold text-emerald-400 mb-8">CNR -- Customer Not Responsive</h2>
             
-            <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
+            <div className="text-sm border border-green-400 mb-4 mt-2 p-2">
                 <p className="text-sm font-serif  mb-2 mt-4 p-2">
                   CNR issue resolved confirmed by rider -- bcos cx call came -- call close
                 </p>
@@ -132,6 +132,7 @@ const CNR = () => {
 };
 
 export default CNR;
+
 
 
 
