@@ -30,7 +30,7 @@ const PaymentIssue = () => {
                     <li className="text-sm font-serif border border-green-400 mb-2 mt-4 p-2">
               Payment Issue -- check payment status -- pending -- asked rider to Click on "Get help" -- and then upload cx's payment proof -- then ask to click "cancelling QR payment" -- ask rider to follow this step bcos after this cx get notified regarding his refund -- cx get ready to do payment again -- if not doing payment again by cx -- then reconnect us again (rider nto able to follow this steps over the call)
             </li>
-            </p>
+            
                 </div>
 
                     <ul>
@@ -78,6 +78,7 @@ const PaymentIssue = () => {
 }
 
 export default PaymentIssue;
+
 
 
 
