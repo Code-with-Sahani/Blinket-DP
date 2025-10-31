@@ -21,15 +21,15 @@ const PaymentIssue = () => {
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                 <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
-                       <li className="text-sm   mb-2 mt-4 p-2">
+                       <p className="text-sm   mb-2 mt-4 p-2">
               Payment Issue -- check payment status -- pending -- rider not getting an option of "Get help" i.e. rider not able to follow new update of payment -- so guided SM for better help -- call close 
-            </li>
-                    <li className="text-sm   0 mb-2 mt-4 p-2">
+            </p>
+                    <p className="text-sm   0 mb-2 mt-4 p-2">
               Payment Issue -- check payment status -- pending -- show "Something went wrong" when rider upload payment proof -- ask rider to refresh this but stil same -- guided to SM for better help -- call close 
-            </li>
-                    <li className="text-sm   mb-2 mt-4 p-2">
+            </p>
+                    <p className="text-sm   mb-2 mt-4 p-2">
               Payment Issue -- check payment status -- pending -- asked rider to Click on "Get help" -- and then upload cx's payment proof -- then ask to click "cancelling QR payment" -- ask rider to follow this step bcos after this cx get notified regarding his refund -- cx get ready to do payment again -- if not doing payment again by cx -- then reconnect us again (rider nto able to follow this steps over the call)
-            </li>
+            </p>
             
                 </div>
 
@@ -78,6 +78,7 @@ const PaymentIssue = () => {
 }
 
 export default PaymentIssue;
+
 
 
 
