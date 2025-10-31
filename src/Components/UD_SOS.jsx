@@ -15,20 +15,19 @@ const UD_SOS = () => {
                 </div>
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
-                        <li className="p-2">Rider SOS -- bike issue -- DP not agreed to deliver -- hence <strong className='text-yellow-300 font-semibold'>unassigned</strong> and ID blocked for few hours details shared</li>
-                        <li className="p-2">Rider SOS -- bike issue -- DP not agreed to deliver -- hence <strong className='text-yellow-300 font-semibold'>reassigned</strong> and ID blocked for few hours details shared </li>
+                        <li className="p-2">Rider SOS -- bike issue -- tried to convince DP for delivery -- DP not agreed to deliver -- hence <strong className='text-yellow-300 font-semibold'>unassigned</strong> and ID blocked for few hours details shared</li>
+                        <li className="p-2">Rider SOS -- bike issue -- tried to convince DP for delivery -- DP not agreed to deliver -- hence <strong className='text-yellow-300 font-semibold'>reassigned</strong> and ID blocked for few hours details shared </li>
                     </ul>
                 </div>
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
 
                         
-                        <li className="p-2">Rider SOS -- bike issue -- DP not agreed to deliver -- <strong className='text-yellow-300 font-semibold'>hence reassigned but error</strong> -- but ask rider to deliver in last then rider agreed </li>
+                        <li className="p-2">Rider SOS -- bike issue -- tried to convince DP for delivery -- DP not agreed to deliver -- <strong className='text-yellow-300 font-semibold'>hence reassigned but error</strong> -- but ask rider to deliver in last then rider agreed </li>
 
+                        <li className="p-2">Rider SOS -- bike issue -- tried to convince DP for delivery -- DP not agreed to deliver -- <strong className='text-yellow-300 font-semibold'>hence reassigned but error</strong> -- called cx -- informed about cancellation & refund TAT shared -- ID blocked for few hours details shared with DP </li>
 
-                        <li className="p-2">Rider SOS -- bike issue -- DP not agreed to deliver -- <strong className='text-yellow-300 font-semibold'>hence reassigned but error</strong> -- called cx -- informed about cancellation & refund TAT shared -- ID blocked for few hours details shared with DP </li>
-
-                        <li className="p-2">Rider SOS -- bike issue -- DP not agreed to deliver -- <strong className='text-yellow-300 font-semibold'>hence reassigned but error</strong> -- called cx -- <strong className='text-red-400 font-semibold'>cx not responsive</strong> -- order cancelled -- ID blocked for few hours details shared with DP</li>
+                        <li className="p-2">Rider SOS -- bike issue -- tried to convince DP for delivery -- DP not agreed to deliver -- <strong className='text-yellow-300 font-semibold'>hence reassigned but error</strong> -- called cx -- <strong className='text-red-400 font-semibold'>cx not responsive</strong> -- order cancelled -- ID blocked for few hours details shared with DP</li>
                     </ul>
                 </div>
             </div>
@@ -58,3 +57,4 @@ const UD_SOS = () => {
 };
 
 export default UD_SOS;
+
