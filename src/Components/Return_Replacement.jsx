@@ -9,17 +9,20 @@ const Return_Replacement = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
                         <li className='p-2'>RPU -- rider stated that cx returning an open/ damage/ used/ wrong product -- inform the rider that was checked by cx support already -- requested to collect the same and submit it at store</li>
-                        <li className='p-2'>Pickup order/ Redelivery-CNR -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- share same to DP & ensure pickup/Redelivery </li>
 
-                        <li className="p-2">Pickup order/ Redelivery-CNR -- called cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong>  -- ask rider to wait till ETA +12 min i.e. 3:33 PM and try to make some more call attempts</li>
+                        <li className="p-2">RPU-CNR -- 2 Call Attempt Not available ❎ -- ask rider to make 1 more call attempt then reconnect us if any issue </li>
+
+                        <li className='p-2'>RPU-CNR -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- share same to DP & ensure pickup/Redelivery </li>
+
+                        <li className="p-2">RPU-CNR -- called cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- ask rider to wait till ETA +12 min i.e. 3:33 PM and try to make some more call attempts</li>
                        
-                        <li className="p-2">Pickup order/ Redelivery-CNR -- called cx twice -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- order cancel -- same share to DP</li>
+                        <li className="p-2">RPU-CNR -- called cx twice -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- order cancel by me under CNR -- same share to DP</li>
                        
-                        <li className="p-2">Pickup order/ Redelivery-CDO -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx do not want to return -- order cancel -- share same to DP</li>
+                        <li className="p-2">RPU-CDO -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx confirmed cx did not have an items -- order cancel by me -- ask cx to connect cx support for better help -- rider issue resolved </li>
 
-                        <li className="p-2">Pickup order/ Redelivery-CDO -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx created wrong pickup/Redelivery return -- order cancel -- ask cx to create the return by selecting correct reason -- share same to DP</li>
+                        <li className="p-2">RPU-CDO -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- cx created wrong pickup/Redelivery return -- order cancel by me -- ask cx to create the return by selecting correct reason & also ask cx to connect cx support for better help -- rider issue resolved </li>
 
-                        <li className="p-2">Pickup order/ Redelivery -- DP denied due to bike issue -- called cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same share to Cx -- order cancel -- same share to DP</li>
+                        <li className="p-2">RPU -- DP denied due to bike issue -- Enroute -- tried to convince DP for delivery but not convinced -- no option to reassign the rider -- ask rider to contact SM</li>
 
                     </ul>
                 </div>
@@ -34,6 +37,7 @@ const Return_Replacement = () => {
 }
 
 export default Return_Replacement
+
 
 
 
