@@ -2,24 +2,24 @@ import React from 'react';
 
 const AddressIssue = () => {
     return (
-        <div className="m-2 p-4 text-sm font-serif bg-gray-800 text-white rounded-md -p-6 lg--p-8">
+        <div className="m-2 p-4 text-sm   bg-gray-800 text-white rounded-md -p-6 lg--p-8">
             <h2 className='text-center text-2xl font-semibold text-emerald-400 mb-4'>Address Issue </h2>
 
              <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
-                <p className="text-sm font-serif  mb-2 mt-4 p-2">
+                <p className="text-sm    mb-2 mt-4 p-2">
                     Address issue -- location mismatched found -- rider wanted to know where he has to go -- called cx -- ask cx to call rider for the correct location guidance -- same share to rider
                 </p>
 
-                <p className="text-sm font-serif  mb-2 mt-4 p-2">
+                <p className="text-sm    mb-2 mt-4 p-2">
                     Address issue -- location mismatched found -- rider wanted to know where he has to go -- called cx -- cx not responsive -- ask rider to reach at given cx's location -- ask rider to follow the automation process & guide the steps
                 </p>
 
-                <p className="text-sm font-serif  mb-2 mt-4 p-2">
+                <p className="text-sm    mb-2 mt-4 p-2">
                 Rider adamant and not ready to go at address & agree to beer penalty -- order cancel by informing cx -- refund TAT shared as well to cx -- same share to rider
             </p>
             </div>
 
-            <p className="text-sm font-serif border border-green-400 mb-2 mt-4 p-2">
+            <p className="text-sm   border border-green-400 mb-2 mt-4 p-2">
                 Address issue -- I don't know the pin location order -- ask rider to reach the delivery area then coordinate with cx and then deliver the order -- if there is any issue then reconnect us again
             </p>
 
@@ -166,6 +166,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
