@@ -7,10 +7,10 @@ const CNR = () => {
             
             <div className="text-sm border border-green-400 mb-4 mt-2 p-2">
                 <p className="text-sm font-serif  mb-2 mt-4 p-2">
-                  CNR issue resolved confirmed by rider -- bcos cx call came -- call close
+                  Rider said that CNR issue -- but in the next moment he confirmed cx called -- rider confirme further no issue -- call close 
                 </p>
                 <p className="text-sm font-serif  mb-2 mt-4 p-2">
-                     CNR issue resolved confirmed by rider -- bcos cx came -- call close
+                     Rider said that CNR issue -- but in the next moment he confirmed cx came -- rider confirme further no issue -- call close 
                 </p>
 
             </div>
@@ -132,6 +132,7 @@ const CNR = () => {
 };
 
 export default CNR;
+
 
 
 
