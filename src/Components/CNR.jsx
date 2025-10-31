@@ -4,6 +4,16 @@ const CNR = () => {
     return (
         <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
             <h2 className="text-center text-2xl  font-bold text-emerald-400 mb-8">CNR -- Customer Not Responsive</h2>
+            
+            <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
+                <p className="text-sm font-serif  mb-2 mt-4 p-2">
+                  CNR issue resolved confirmed by rider -- bcos cx call came -- call close
+                </p>
+                <p className="text-sm font-serif  mb-2 mt-4 p-2">
+                     CNR issue resolved confirmed by rider -- bcos cx came -- call close
+                </p>
+
+            </div>
 
             <div className="p-3 bg-gray-700 rounded-md shadow">
                 <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Geo-Fence Not Reached</h3>
@@ -18,6 +28,8 @@ const CNR = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Geo-Fence/ Doorstep reached Before Automation time</h3>
                     <ul className="list-disc pl-5">
+                       <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached but Doorstep not reached</strong> -- ETA+12 mins not crossed -- ask rider to mark Doorstep reahced from application -- then you become able to make call to cx -- call close </li>
+
                         <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins not crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
 
                         <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins not crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- ask rider to follow automation till ETA +12 min along with some call attempt</li>
@@ -40,6 +52,8 @@ const CNR = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-lg font-semibold text-amber-400 mt-2 mb-2">Geo-Fence/ Doorstep reached After Automation</h3>
                     <ul className="list-disc pl-5">
+
+                         <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence reached but Doorstep not reached</strong> -- ETA+12 mins crossed -- ask rider to mark Doorstep reahced from application -- then you become able to make call to cx -- call close </li>
 
                         <li className="p-2">DP unable to call cx -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+12 mins crossed -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
 
@@ -118,6 +132,7 @@ const CNR = () => {
 };
 
 export default CNR;
+
 
 
 
