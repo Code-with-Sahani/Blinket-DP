@@ -13,6 +13,10 @@ const CNR = () => {
                      Rider said that CNR issue -- but in the next moment he confirmed cx came -- rider confirm further no issue -- call close 
                 </p>
 
+                <p className="text-sm font-serif  mb-2 mt-4 p-2">
+                but -- rider not able to follow automation (showing marking order delivered ) -- -- ask rider to contact SM, ask SM to share the videos or photos with the Blinkit team -- call close
+                </p>
+
             </div>
 
             <div className="p-3 bg-gray-700 rounded-md shadow">
@@ -132,6 +136,7 @@ const CNR = () => {
 };
 
 export default CNR;
+
 
 
 
