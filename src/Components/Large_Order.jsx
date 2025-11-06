@@ -7,10 +7,10 @@ const Large_Order = () => {
       <div className='space-y-4'>
         <div className="p-3 bg-gray-700 rounded-md shadow">
           <ul className="list-disc pl-5">
-            <li className='p-2'>CDO -- by mistake/address issue/Duplicate order -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- Push back given to Cx -- cx denied to accept -- ask rider to Submit the order at store -- then reconnect us again regarding the cancellation.</li>
-            <li className='p-2'>CDO -- by mistake/address issue/Duplicate order -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- Push back given to Cx -- cx denied to accept -- order submitted at store -- called SM -- SM confirmed -- highlighted to concern team for cancellation  -- same shared to DP</li>
-            <li className='p-2'>CDO -- by mistake/address issue/Duplicate order -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- Push back given to Cx -- cx denied to accept -- order submitted at store -- called SM -- SM unresponsive -- rider at store according to the map -- highlighted to concern team for cancellation  -- same shared to DP</li> 
-            <li className='p-2'>CDO -- by mistake/address issue/Duplicate order -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- Push back given to Cx -- cx denied to accept -- order submitted at store -- called SM -- SM unresponsive -- Order cannot be canceled without SM confirmation -- Same shared to DP</li>
+            <li className='p-2'>CDO -- by mistake/address issue/Duplicate order -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- cx denied to accept -- ask rider to Submit the order at store -- then reconnect us again regarding the cancellation.</li>
+            <li className='p-2'>CDO -- by mistake/address issue/Duplicate order -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- cx denied to accept -- order submitted at store -- called SM -- SM confirmed -- highlighted to concern team for cancellation  -- same shared to DP</li>
+            <li className='p-2'>CDO -- by mistake/address issue/Duplicate order -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- cx denied to accept -- order submitted at store -- called SM -- SM unresponsive -- rider at store according to the map -- highlighted to concern team for cancellation  -- same shared to DP</li> 
+            <li className='p-2'>CDO -- by mistake/address issue/Duplicate order -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- cx denied to accept -- order submitted at store -- called SM -- SM unresponsive -- Order cannot be canceled without SM confirmation -- Same shared to DP</li>
              
           </ul>
         </div>
@@ -20,3 +20,4 @@ const Large_Order = () => {
 }
 
 export default Large_Order
+
