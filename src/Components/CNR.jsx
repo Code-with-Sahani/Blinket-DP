@@ -14,7 +14,7 @@ const CNR = () => {
                 </p>
 
                 <p className="text-sm font-serif  mb-2 mt-4 p-2">
-                but -- rider not able to follow automation (showing marking order delivered ) -- -- ask rider to contact SM, ask SM to share the videos or photos with the Blinkit team -- call close
+                but -- rider not able to follow automation (showing marking order delivered ) -- ask the rider to contact the SM, and request the SM to share the videos or photos with the Blinkit team -- call close
                 </p>
 
             </div>
@@ -136,6 +136,7 @@ const CNR = () => {
 };
 
 export default CNR;
+
 
 
 
