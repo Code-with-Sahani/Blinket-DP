@@ -27,7 +27,7 @@ const AddressIssue = () => {
                 Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is less than 8 km -- ask rider to deliver the order and denied cancellation -- also inform that they will definitely receive the extra pay for this order after it gets delivered // furthere no issue call resolved
             </p>
 
-            <p cclassName="text-sm mb-2 mt-4 p-2">
+            <p className="text-sm mb-2 mt-4 p-2">
                 Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is more than 8 km -- rider denied extra -- inform cx about cancellation & refund TATA shared -- order cancel -- same share to rider 
             </p>
         </div>
