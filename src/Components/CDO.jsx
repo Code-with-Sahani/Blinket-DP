@@ -36,10 +36,10 @@ const CDO = () => {
                         </strong> -- ask rider to deliver at cx correct address -- rider agree with the extra payout -- ask to raise a ticket -- Call close
                         </li>
 
-                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here --Not Serviceable
+                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here -- Not Serviceable
                         </strong> -- ask rider to deliver at cx correct address -- rider disagree with the extra payout -- order cancel by informing cx -- same share to rider </li>
 
-                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here --Not Serviceable
+                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here -- Not Serviceable
                         </strong> -- ask rider to deliver at cx correct address -- rider disagree with the extra payout -- order cancel -- refund TAT sahre to cx -- same share to rider</li>
 
 
@@ -85,6 +85,16 @@ const CDO = () => {
 
                         <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- Error in OS in call recording -- ask DP to follow automation in CNR if cx wants to cancel else deliver the order</li>
                     </ul>
+
+                    <div className="text-sm border border-green-400 mb-4 mt-2 p-2">
+              
+                    <p className="text-sm font-serif  mb-2 mt-4 p-2">>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No proper call recording available -- ETA+15 mins not crossed -- 2 CNR attempt available ✅-- inform rider order got cancelled automatically & requested to wait till ETA + 15min.</p>
+
+                    <p className="text-sm font-serif  mb-2 mt-4 p-2">>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No proper call recording available -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to wait for few moment order got cancelled automatically.</p>
+
+                    <p className="text-sm font-serif  mb-2 mt-4 p-2">>CDO -- called cx -- <strong className='text-red-400'>cx not responsive // Voicemail or Switched off </strong> -- No proper call recording available -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- order canceled by me -- same info shared to DP</p>
+
+                    </div>
                 </div>
 
             </div>
@@ -93,6 +103,7 @@ const CDO = () => {
 };
 
 export default CDO;
+
 
 
 
