@@ -93,7 +93,7 @@ const CDO = () => {
 
                     <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No proper call recording available -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to wait for few moment order got cancelled automatically.</p>
 
-                    <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive // Voicemail or Switched off </strong> -- No proper call recording available -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- order canceled by me -- same info shared to DP</p>
+                    <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive <u>// Voicemail or Switched off</u> </strong> -- No proper call recording available -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- order canceled by me -- same info shared to DP</p>
 
                     </div>
                 </div>
@@ -104,6 +104,7 @@ const CDO = () => {
 };
 
 export default CDO;
+
 
 
 
