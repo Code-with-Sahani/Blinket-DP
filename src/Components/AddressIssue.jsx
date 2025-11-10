@@ -20,7 +20,7 @@ const AddressIssue = () => {
             </div>
 
              <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
-                    <h3 className="text-sm font-semibold text-emerald-400 mb-3">Incomplete Address</h3>
+                    <h3 className="text-sm font-semibold text-emerald-400 mb-3"> I don't know the pin location order</h3>
                     <p className="list-disc pl-5">
                         <p className="text-sm mb-2 mt-4 p-2">
                     Address issue -- I don't know the pin location order -- ask rider to reach the delivery area then coordinate with cx and then deliver the order -- also inform that they will definitely receive the extra pay for this order after it gets delivered -- if there is any issue then reconnect us again
@@ -100,6 +100,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
