@@ -10,15 +10,15 @@ const CDO = () => {
                 <div className="p-3 bg-gray-900 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">CDO : Due to Address Issue Updates</h3>
                     <ul className="list-disc pl-5">
-                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Serviceable
-                        </strong> -- ask rider to deliver at cx correct address -- ask to raise ticket as well after delivery for extra payout -- rider agree -- Call close
-                        </li>
+                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here -- Serviceable
+                        </strong> -- ask rider to deliver at cx correct address -- ask to raise ticket as well after delivery for extra payout -- rider agree -- Call close</li>
 
-                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Serviceable
-                        </strong> -- ask rider to deliver at cx correct address -- rider denied and adamant -- order cancel by informing the cx -- same share to rider</li>
+                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here -- Serviceable
+                        </strong> -- Rider adamant and not ready to go at address & agree to beer penalty -- order cancel by informing cx -- same share to rider</li>
 
-                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Serviceable
-                        </strong> -- ask rider to deliver at cx correct address -- rider denied and adamant -- order cancel -- refund TAT sahre to cx -- same share to rider</li>
+                       <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here -- Serviceable
+                        </strong> -- Rider adamant and not ready to go at address & agree to beer penalty -- order cancel by informing cx -- refund TAT shared as well to cx -- same share to rider</li>
+
                     </ul>
                     <br />
 
@@ -32,14 +32,14 @@ const CDO = () => {
 
                         <hr className=' mt-8 mb-8' />
 
-                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Not Serviceable
+                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here -- Not Serviceable
                         </strong> -- ask rider to deliver at cx correct address -- rider agree with the extra payout -- ask to raise a ticket -- Call close
                         </li>
 
-                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Not Serviceable
+                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here --Not Serviceable
                         </strong> -- ask rider to deliver at cx correct address -- rider disagree with the extra payout -- order cancel by informing cx -- same share to rider </li>
 
-                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Not Serviceable
+                        <li className='p-2'>CDO -- Address wrong -- Address given by cx -- <strong className='text-green-400'>Mention Distance here --Not Serviceable
                         </strong> -- ask rider to deliver at cx correct address -- rider disagree with the extra payout -- order cancel -- refund TAT sahre to cx -- same share to rider</li>
 
 
@@ -93,6 +93,7 @@ const CDO = () => {
 };
 
 export default CDO;
+
 
 
 
