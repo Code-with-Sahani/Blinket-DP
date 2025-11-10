@@ -86,6 +86,7 @@ const CDO = () => {
                         <li className='p-2'>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- Error in OS in call recording -- ask DP to follow automation in CNR if cx wants to cancel else deliver the order</li>
                     </ul>
 
+                     <hr className='mb-5 mt-5' />
                     <div className="text-sm border border-green-400 mb-4 mt-2 p-2">
               
                     <p className="text-sm font-serif  mb-2 mt-4 p-2">>CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No proper call recording available -- ETA+15 mins not crossed -- 2 CNR attempt available ✅-- inform rider order got cancelled automatically & requested to wait till ETA + 15min.</p>
@@ -103,6 +104,7 @@ const CDO = () => {
 };
 
 export default CDO;
+
 
 
 
