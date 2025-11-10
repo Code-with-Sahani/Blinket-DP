@@ -19,10 +19,12 @@ const AddressIssue = () => {
                 </p>
             </div>
 
-            <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
-                <p className="text-sm mb-2 mt-4 p-2">
+             <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
+                    <h3 className="text-sm font-semibold text-emerald-400 mb-3">Incomplete Address</h3>
+                    <p className="list-disc pl-5">
+                        <p className="text-sm mb-2 mt-4 p-2">
                     Address issue -- I don't know the pin location order -- ask rider to reach the delivery area then coordinate with cx and then deliver the order -- also inform that they will definitely receive the extra pay for this order after it gets delivered -- if there is any issue then reconnect us again
-                </p>
+                        </p>
                 <p className="text-sm mb-2 mt-4 p-2">
                     Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is less than 8 km -- ask rider to deliver the order and denied cancellation -- also inform that they will definitely receive the extra pay for this order after it gets delivered // furthere no issue call resolved
                 </p>
@@ -30,7 +32,8 @@ const AddressIssue = () => {
                 <p className="text-sm mb-2 mt-4 p-2">
                     Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is more than 8 km -- rider denied extra -- inform cx about cancellation & refund TATA shared -- order cancel -- same share to rider
                 </p>
-            </div>
+                    </p>
+                </div>
             <h3 className="text-lg font-semibold text-amber-400 mb-3">Out of Polygon</h3>
             <div className="space-y-4">
                 <div className="p-3 bg-gray-700 rounded-md shadow">
@@ -51,7 +54,7 @@ const AddressIssue = () => {
                 </div>
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
-                    <h3 className="text-sm font-semibold text-emerald-400 mb-3">Validating address mismatch</h3>
+                    <h3 className="text-sm font-semibold text-emerald-400 mb-3">Pin-location Mismatch</h3>
                     <ul className="list-disc pl-5">
                         <li className="p-2">Address Issue -- Distance between <strong className="text-yellow-400 font-semibold"> location & address </strong>  is less than 400 m -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled</li>
 
@@ -97,6 +100,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
