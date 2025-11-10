@@ -18,7 +18,6 @@ const BuddyRider = () => {
                 <h3>35-59.99 == 1 BR</h3>
                 <h3>more than 60 == 2 BR</h3>
 
-
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Order weight less than 20 Kg :</h3>
                     <ul className="list-disc pl-5">
@@ -69,6 +68,7 @@ const BuddyRider = () => {
 }
 
 export default BuddyRider
+
 
 
 
