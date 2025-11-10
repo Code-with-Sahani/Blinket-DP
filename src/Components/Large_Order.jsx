@@ -20,7 +20,7 @@ const Large_Order = () => {
           </ul> 
             <div className="text-sm border border-green-400 mb-4 mt-2 p-2">
               
-          <p className="text-sm mb-2 mt-2 p-2">HOV-CDO -- by mistake/Duplicate order -- previous agent already confrimed with cx -- order submission's confirmation also taken from SM by previous agent -- highlighted to concern team for cancellation -- same shared to DP  </p>
+          <p className="text-sm mb-2 mt-2 p-2">HOV-CDO -- by mistake/Duplicate order -- cx's confirmation done ✅ by old agent -- order submission's confirmation also taken from SM by old agent -- highlighted to concern team for cancellation -- same shared to DP  </p>
             </div>
         </div>
       </div>
@@ -29,6 +29,7 @@ const Large_Order = () => {
 }
 
 export default Large_Order
+
 
 
 
