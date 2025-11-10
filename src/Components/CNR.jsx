@@ -65,7 +65,7 @@ const CNR = () => {
 
                         <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+15 mins crossed -- <strong className='text-yellow-300 font-semibold'>2 Call Attempt available ✅</strong> -- CNR attempt not available -- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive</strong> -- asked to follow the automation process for the order cancellation</li>
                         
-                        <hr></hr>
+                        <hr className='mb-5 mt-5' />
 
                         <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+15 mins crossed -- 2 Call Attempt available ✅-- 2 CNR attempt available ✅-- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- shared the same with DP.</li>
 
@@ -75,10 +75,9 @@ const CNR = () => {
 
                         <div className="text-sm border border-green-400 mb-4 mt-2 p-2">
               
-                   <li className="text-sm font-serif  mb-2 mt-4 p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+15 mins crossed -- 2 Call Attempt available ✅-- 2 CNR attempt available ✅-- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive // Voicemail-call or Swtiched off</strong> -- order cancel -- same share to rider </li>
+                   <p className="text-sm font-serif  mb-2 mt-4 p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+15 mins crossed -- 2 Call Attempt available ✅-- 2 CNR attempt available ✅-- call Cx -- <strong className='text-red-400 font-semibold'>Cx not responsive // Voicemail-call or Swtiched off</strong> -- order cancel -- same share to rider </p>
 
             </div>
-
                     </ul>
                 </div>
             </div> 
@@ -137,6 +136,7 @@ const CNR = () => {
 };
 
 export default CNR;
+
 
 
 
