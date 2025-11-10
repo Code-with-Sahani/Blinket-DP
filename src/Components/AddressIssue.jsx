@@ -19,18 +19,18 @@ const AddressIssue = () => {
                 </p>
             </div>
 
-        <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
-            <p className="text-sm mb-2 mt-4 p-2">
-                Address issue -- I don't know the pin location order -- ask rider to reach the delivery area then coordinate with cx and then deliver the order -- also inform that they will definitely receive the extra pay for this order after it gets delivered -- if there is any issue then reconnect us again
-            </p>
-            <p className="text-sm mb-2 mt-4 p-2">
-                Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is less than 8 km -- ask rider to deliver the order and denied cancellation -- also inform that they will definitely receive the extra pay for this order after it gets delivered // furthere no issue call resolved
-            </p>
+            <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
+                <p className="text-sm mb-2 mt-4 p-2">
+                    Address issue -- I don't know the pin location order -- ask rider to reach the delivery area then coordinate with cx and then deliver the order -- also inform that they will definitely receive the extra pay for this order after it gets delivered -- if there is any issue then reconnect us again
+                </p>
+                <p className="text-sm mb-2 mt-4 p-2">
+                    Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is less than 8 km -- ask rider to deliver the order and denied cancellation -- also inform that they will definitely receive the extra pay for this order after it gets delivered // furthere no issue call resolved
+                </p>
 
-            <p className="text-sm mb-2 mt-4 p-2">
-                Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is more than 8 km -- rider denied extra -- inform cx about cancellation & refund TATA shared -- order cancel -- same share to rider 
-            </p>
-        </div>
+                <p className="text-sm mb-2 mt-4 p-2">
+                    Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is more than 8 km -- rider denied extra -- inform cx about cancellation & refund TATA shared -- order cancel -- same share to rider
+                </p>
+            </div>
             <h3 className="text-lg font-semibold text-amber-400 mb-3">Out of Polygon</h3>
             <div className="space-y-4">
                 <div className="p-3 bg-gray-700 rounded-md shadow">
@@ -79,12 +79,15 @@ const AddressIssue = () => {
                     <ul className="list-disc pl-5">
                         <li className="p-2">Incomplete address -- mentioned address minor details missing -- called cx -- <strong className="text-yellow-400 font-semibold">cx responsive </strong> -- requested cx to call the rider for guidance -- same share to rider and asked to ensure delivery</li>
 
-                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- ETA+12 mins not crossed -- Call Attempt available ✅ -- call Cx -- Cx Not responsive -- ask rider to follow automation till ETA +12 min along with some call attempt</li>
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx twice -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- ETA+15 mins not crossed -- Call Attempt available ✅-- call Cx -- Cx Not responsive -- ask rider to follow automation till ETA +15 min along with some call attempt</li>
+
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx twice -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- ETA+15 mins not crossed✅-- 2 CNR attempt available ✅-- call Cx twice -- Cx Not responsive -- ask rider to wait for few moment order got cancelled automatically - call close</li>
 
 
-                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min not crossed -- ask rider to make some more call attempt till ETA +12 min </li>
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing -- call Cx twice -- Cx not responsive -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to wait for few moment order got cancelled</li>
 
-                        <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min crossed -- order canceled -- shared the same with DP</li>
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing -- call Cx twice -- Cx not responsive // <u>Voicemail or Switched off</u> -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to wait for few moment order got cancelled</li>
+
                     </ul>
                 </div>
 
