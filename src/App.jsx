@@ -17,9 +17,8 @@ const App = () => {
   return (
     <div className='h-full w-full bg-gray-300 text-white'>
 
-      <header className=' p-4 text-black text-center text-2xl font-bold flex gap-100' >Comment Sheet For DP support - Certified by "Sahani &#128517;" <h2 className='text-sm mt-3'>Last Updated :16-10-2025 at 09:35:00</h2></header>
+      <header className=' p-4 text-black text-center text-2xl font-bold flex gap-100' >Comment Sheet For DP support - Certified by "Sahani &#128517;" <h2 className='text-sm mt-3'>Last Updated :11-11-2025 at 03:18:00</h2></header>
       <DP_Not_Answer />
-      <Nonlive/>
       <CNR />
       <CDO />
       <Large_Order />
@@ -31,6 +30,7 @@ const App = () => {
       <BuddyRider />
       <Return_Replacement />
       <AddressIssue />
+      <Nonlive/>
     </div>
   )
 }
