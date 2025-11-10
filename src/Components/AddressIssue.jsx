@@ -41,11 +41,11 @@ const AddressIssue = () => {
 
                         <li className="p-2">Out of polygon -- Distance b/w store and cx's address is less than 4 km -- ask rider to deliver the order and denied cancellation </li>
 
-                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">serviceable store -- </strong> ask rider to deliver & denied cancellation </li>
+                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is less than 4 km -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">serviceable store -- </strong> ask rider to deliver & denied cancellation </li>
 
-                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">not serviceable store -- </strong> rider agreed for extra pay -- ask rider to deliver & raise a ticket after delivery </li>
+                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is less than 4 km -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">not serviceable store -- </strong> rider agreed for extra pay -- ask rider to deliver & raise a ticket after delivery </li>
 
-                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">not serviceable store -- </strong> rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider</li>
+                        <li className="p-2">Out of polygon -- Distance b/w store and cx's address is less than 4 km -- Distance b/w store and cx's address is more than 4 km -- <strong className="text-yellow-400 font-semibold">not serviceable store -- </strong> rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider</li>
 
                     </ul>
                 </div>
