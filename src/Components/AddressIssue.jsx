@@ -84,9 +84,9 @@ const AddressIssue = () => {
                         <li className='p-2'>Incomplete address -- mentioned address minor details missing  -- call cx twice -- <strong className="text-yellow-400 font-semibold">cx not responsive</strong> -- ETA+15 mins not crossed✅-- 2 CNR attempt available ✅-- call Cx twice -- Cx Not responsive -- ask rider to wait for few moment order got cancelled automatically - call close</li>
 
 
-                        <li className='p-2'>Incomplete address -- mentioned address minor details missing -- call Cx twice -- Cx not responsive -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to wait for few moment order got cancelled</li>
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing -- call Cx twice -- Cx not responsive -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to wait for few moment order got cancelled automatically - call close</li>
 
-                        <li className='p-2'>Incomplete address -- mentioned address minor details missing -- call Cx twice -- Cx not responsive // <u>Voicemail or Switched off</u> -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to wait for few moment order got cancelled</li>
+                        <li className='p-2'>Incomplete address -- mentioned address minor details missing -- call Cx twice -- Cx not responsive // <u>Voicemail or Switched off</u> -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- order cancel -- same share to rider </li>
 
                     </ul>
                 </div>
@@ -97,6 +97,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
