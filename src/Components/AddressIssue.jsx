@@ -7,11 +7,11 @@ const AddressIssue = () => {
 
              <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
                 <p className="text-sm    mb-2 mt-4 p-2">
-                    Address issue -- location mismatched found -- rider wanted to know where he has to go -- called cx -- ask cx to call rider for the correct location guidance -- same share to rider
+                    Address issue -- mentioning distance here -- rider wanted to know where he has to go -- called cx -- ask cx to call rider for the correct location guidance -- same share to rider
                 </p>
 
                 <p className="text-sm    mb-2 mt-4 p-2">
-                    Address issue -- location mismatched found -- rider wanted to know where he has to go -- called cx -- cx not responsive -- ask rider to reach at given cx's location -- ask rider to follow the automation process & guide the steps
+                    Address issue -- oning distance here -- rider wanted to know where he has to go -- called cx -- cx not responsive -- ask rider to reach at given cx's location -- ask rider to follow the automation process & guide the steps
                 </p>
 
                 <p className="text-sm    mb-2 mt-4 p-2">
@@ -19,47 +19,25 @@ const AddressIssue = () => {
             </p>
             </div>
 
-            <p className="text-sm   border border-green-400 mb-2 mt-4 p-2">
-                Address issue -- I don't know the pin location order -- ask rider to reach the delivery area then coordinate with cx and then deliver the order -- if there is any issue then reconnect us again
-            </p>
+            
+            <h3 className="text-lg font-semibold text-amber-400 mb-3">Address issue -- I don't know the pin location order</h3>
+            <div className="space-y-4">
+                <div className="p-3 bg-gray-700 rounded-md shadow">
+                    <ul className="list-disc pl-5">
+                      <p className="text-sm   border border-green-400 mb-2 mt-4 p-2">
+                Address issue -- I don't know the pin location order -- ask rider to reach the delivery area then coordinate with cx and then deliver the order -- also inform that they will definitely receive the extra pay for this order after it gets delivered -- if there is any issue then reconnect us again
+                      </p>
 
-            {/* <div className="mb-8 border border-yellow-400">
-                <h3 className="text-xl font-semibold text-yellow-400 mb-2 mt-4 pb-2">
-                    🚚 Rakhi & OFSE Update
-                </h3>
-                <ul className="list-disc pl-5 pr-5 list-inside space-y-4 text-sm leading-relaxed">
-                    <li >
-                        Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- confirm correct address/location -- location updated in rider's app -- ask rider to deliver
-                    </li>
+                    <p className="text-sm   border border-green-400 mb-2 mt-4 p-2">
+                Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is less than 8 km -- ask rider to deliver the order and denied cancellation -- also inform that they will definitely receive the extra pay for this order after it gets delivered.
+                    </p>
 
-                    <li >
-                        Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- cx not responsive -- location updated in rider's app as rider confirmation -- & ask rider to deliver
-                    </li>
+                    <p className="text-sm   border border-green-400 mb-2 mt-4 p-2">
+                Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address is more than 8 km -- rider denied extra pay -- inform cx about cancellation & refund TATA shared -- order cancel -- same share to rider
+                    </p>
+                    </ul>
+                </div>
 
-                    <li >
-                        Address issue -- location mismatch -- Distance between location & address is more than 400 m -- Distance b/w store & address is more than 4 km <span className="text-red-400 font-semibold"> -- not serviceable </span> -- ask rider to deliver with extra payout -- <span className="text-green-400 font-semibold"> rider agreed </span> -- ask to deliver & raise ticket for extra distance travelled
-                    </li>
-
-                    <li >
-                        Address issue -- location mismatch -- Distance between location & address is more than 400 m -- Distance b/w store & address is more than 4 km  <span className="text-red-400 font-semibold"> -- not serviceable </span> -- ask rider to deliver with extra payout --<span className="text-green-400 font-semibold"> rider disagree </span> -- order cancel after informing cx & refund TAT shared -- same share to rider
-                    </li>
-
-                    <div className='mb-8 p-2 border border-red-300'><h3 className="text-xl font-semibold text-red-400 mb-4 pb-2">
-                        Updates Failed !!!
-                    </h3>
-                        <ul className="list-disc  list-inside space-y-4 text-sm leading-relaxed">
-                            <li >
-                                Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- confirm correct address/location -- <span className="text-red-400 font-semibold"> location update failed/No option to update</span> -- ask cx to guided rider for better location guidence -- same share to rider& raise a ticket for the extra distance
-                            </li>
-
-                            <li >
-                                Address issue -- location mismatch -- <span className="text-green-400 font-semibold"> serviceable </span> -- called cx -- cx not responsive -- <span className="text-red-400 font-semibold"> location update failed/No option to update</span> -- & ask rider to deliver via coordinating with cx
-                            </li>
-                        </ul>
-
-                    </div>
-                </ul>
-            </div> */}
             <h3 className="text-lg font-semibold text-amber-400 mb-3">Out of Polygon</h3>
             <div className="space-y-4">
                 <div className="p-3 bg-gray-700 rounded-md shadow">
@@ -78,50 +56,6 @@ const AddressIssue = () => {
 
                     </ul>
                 </div>
-                {/* 
-                <h3 className="text-lg font-semibold text-amber-400 mb-3">Different situtions</h3>
-
-                <div className="p-3 bg-gray-700 rounded-md shadow">
-                    <h3 className="text-lg font-semibold text-emerald-400 mb-3">Address Issue-Pin location / address mismatch</h3>
-                    <ul className="list-disc pl-5">
-                        <li className="p-2">Address Issue-Pin location/ address mismatch -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- 1.7 km from pin location  -- pitch extra payout -- ask DP to deliver on address</li>
-                        <li className="p-2">Address Issue-Pin location/ address mismatch -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- 1.7 km from pin location  -- pitch extra payout  -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- requested cx to call DP for the better location guidance -- ask DP to deliver on address</li>
-                        <li className='p-2'>Address Issue-Pin location/ address mismatch -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 350 m from pin location -- pitch extra payout -- DP agree -- ask DP to deliver order</li>
-                        <li className='p-2'>Pin location/ address mismatch/ Location issue -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 350 m from pin location -- pitch extra payout -- DP agree -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- requested cx to call DP for the better location guidance -- ask DP to deliver order</li>
-                        <li className='p-2'>Address Issue-Pin location/ address mismatch -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 5.1 km from pin location -- pitch extra payout -- DP disagree -- call Cx for cancellation & refund details -- Order cancel by me -- Same inform to the DP</li>
-                    </ul>
-                </div>
-
-                <div className="p-3 bg-gray-700 rounded-md shadow">
-                    <h3 className="text-lg font-semibold text-emerald-400 mb-3">Address Issue-Pin location is Far/ Wrong Address  &#128073;<small className='text-blue-400'>(Pin location is Far -- It is only use when the distance between pin location & delivery address have very long distance)</small></h3>
-                    <ul className="list-disc pl-5 text-white">
-                        <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- push back given -- but cx ready to accept -- same share to DP</li>
-                        <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- push back given -- but cx not ready -- order cancel -- share same to DP</li>
-                        <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- push back given -- but cx not ready -- not give proper consent of cancellation -- ask DP to follow automation in CDO</li>
-                        <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- push back given -- but cx not ready -- not give proper consent of cancellation -- Already automation followed in CDO -- Order cancel -- Same share to DP</li>
-                        <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- <strong className="text-fuchsia-500 font-semibold">Before ETA +10 mins</strong> -- call recording available -- cx wants cancel -- order canceled by me -- same shared to DP</li>
-                        <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- <strong className="text-fuchsia-500 font-semibold">Before ETA +10 mins</strong> -- No call recording available -- ask DP to follow automation in CDO</li>
-                        <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Serviceable</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- <strong className="text-fuchsia-500 font-semibold">After ETA +10 mins</strong> -- ask DP to follow automation in CDO</li>
-                        <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 2.9 km -- pitch extra payout -- DP agree -- Ask DP to deliver order & denied cancellation</li>
-                        <li className="p-2">DP Said wrong address -- <strong className="text-yellow-400 font-semibold">Not Serviceable</strong> -- 2.9 km -- pitch extra payout -- DP Disagree -- Call Cx for cancellation & refund details -- Order cancel by me -- Same inform to the DP</li>
-                    </ul>
-                </div>
-*/}
-                {/* <div className="p-3 bg-gray-700 rounded-md shadow">
-                    <h3 className="text-sm font-semibold text-emerald-400 mb-3">Location Issue / calling cx for Guidance</h3>
-                    <ul className="list-disc pl-5">
-                        <li className="p-2">DP confused Location issue -- validating Distance point -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx </strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- requested cx to Call DP for better location guidance -- same share to DP</li>
-                        <li className="p-2">DP confused Location issue -- validating Distance point -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx said he wanted his order at his pin location -- share same to the DP</li>
-                        <li className="p-2">DP confused Location issue -- validating Distance point -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- cx said he wanted his order at his address & requested cx to call DP for the better location guidance -- pitch extra payout -- share same to the DP</li>
-                        <li className='p-2'>DP confused Location issue -- validating Distance point -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> - -- ask rider to follow automation till ETA +12 min along with some call attempt -- DP agreed</li>
-
-                        <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min not crossed -- -- shared the same with DP</li>
-                        <li className='p-2'>DP confused Location issue -- <strong className="text-yellow-400 font-semibold">Unable to find cx location and wanted to talk with cx</strong> -- Called cx -- <strong className="text-red-400 font-semibold">cx not responsive</strong> -- CNR attempt available -- ETA + 12 min crossed -- order canceled -- shared the same with DP</li>
-                    </ul>
-                </div> */}
-
-
-
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <h3 className="text-sm font-semibold text-emerald-400 mb-3">Validating address mismatch</h3>
                     <ul className="list-disc pl-5">
@@ -166,6 +100,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
