@@ -41,7 +41,7 @@ const CNR = () => {
                         <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+15 mins not crossed -- <strong className='text-yellow-300 font-semibold'>2 Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- same shared with rider.</li>
                         <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+15 mins not crossed -- <strong className='text-yellow-300 font-semibold'>2 Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx responsive</strong> -- ask cx to call rider -- same shared with rider.</li>
 
-                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+15 mins not crossed -- <strong className='text-yellow-300 font-semibold'>2 Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx Not responsive</strong> -- ask rider to follow automation till ETA +12 min along with some call attempt </li>
+                        <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+15 mins not crossed -- <strong className='text-yellow-300 font-semibold'>2 Call Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx Not responsive</strong> -- ask rider to follow automation till ETA +15 min along with some call attempt </li>
                         <li className="p-2">CNR -- <strong className="text-yellow-300 font-semibold">Geo-Fence/ Doorstep reached</strong> -- ETA+15 mins not crossed -- <strong className='text-yellow-300 font-semibold'>2 Call Attempt available ✅ & CNR also Attempt available ✅</strong> -- call Cx -- <strong className='text-red-400 font-semibold'>Cx Not responsive</strong> -- ask rider to make some more call attempt till ETA + 15 min</li>
 
                     </ul>
@@ -136,6 +136,7 @@ const CNR = () => {
 };
 
 export default CNR;
+
 
 
 
