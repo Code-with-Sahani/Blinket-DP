@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className='h-full w-full bg-gray-300 text-white'>
 
-      <p className=' p-4 text-black text-center text-2xl font-bold flex gap-100' >Comment Sheet For DP support - Certified by "Sahani &#128517;" <h2 className='text-sm mt-3'>Last Updated :11-11-2025 at 03:18:00</h2></p>
+      <p className=' p-4 text-black text-center text-2xl font-bold flex gap-25' >Comment Sheet For DP support - Certified by "Sahani &#128517;" <h2 className='text-sm mt-3'>Last Updated :11-11-2025 at 03:18:00</h2></p>
       <DP_Not_Answer />
       <CNR />
       <CDO />
