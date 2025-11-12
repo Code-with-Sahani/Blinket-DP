@@ -15,7 +15,7 @@ import Nonlive from './Components/Nonlive'
 
 const App = () => {
   return (
-    <div className='h-full w-full bg-gray-300 text-white pt-4'>
+    <div className='h-full w-full bg-gray-300 text-white pt-2'>
 
        <div className="m-2 p-4 bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
         <h2 className="text-center text-2xl font-bold text-emerald-400 mb-8">Comment Sheet For DP support - Certified by Sahani &#128517;</h2>
