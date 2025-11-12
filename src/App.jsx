@@ -20,7 +20,7 @@ const App = () => {
        <div className="m-2 p-4 text-sm bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
         <h2 className="text-center text-xl font-bold text-emerald-400 mb-8">Comment Sheet For DP support - Certified by Sahani &#128517;</h2>
        
-         <h2 className="text-start text-xl font-semibold text-emerald-400 mb-8">Last Updated - 11-11-2025 at 03:18:00</h2>
+         <h2 className="text-center text-base font-semibold text-emerald-400 mb-8">Last Updated - 11-11-2025 at 03:18:00</h2>
        
        </div>
       
