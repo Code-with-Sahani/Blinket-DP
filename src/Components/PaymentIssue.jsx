@@ -57,9 +57,9 @@ const PaymentIssue = () => {
 
                           <hr className='mb-5 mt-5' />
                        
-                    <li className="p-2">Payment Issue -- Change Issue -- called cx --<strong className="text-amber-300 font-semibold">cx not responsive</strong> -- ask rider to manage change and -- rider agree to arrange -- further no issue  call close</li>
+                    <li className="p-2">Payment Issue -- Change Issue -- called cx --<strong className="text-amber-300 font-semibold">cx not responsive</strong> -- ask rider to arrange change and -- rider agree to arrange -- further no issue  call close</li>
  
-                    <li className="p-2">Payment Issue -- Change Issue -- called cx --<strong className="text-amber-300 font-semibold">cx not responsive</strong> Payment Issue -- check payment status -- change issue -- called cx twice -- cx not responsive -- ask rider to manage change but rider not able todo that -- rider adamant -- order at rider -- order cancel  -- same share to rider</li>
+                    <li className="p-2">Payment Issue -- Change Issue -- called cx --<strong className="text-amber-300 font-semibold">cx not responsive</strong> -- ask rider to arrange change but rider not able todo that -- rider adamant -- order at rider -- order cancel  -- same share to rider</li>
 
                         
                     </ul>
@@ -86,6 +86,7 @@ const PaymentIssue = () => {
 }
 
 export default PaymentIssue;
+
 
 
 
