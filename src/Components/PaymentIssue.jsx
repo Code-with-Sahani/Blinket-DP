@@ -58,6 +58,14 @@ const PaymentIssue = () => {
                     </ul>
                 </div>
 
+                <h3 className="text-lg font-semibold text-emerald-400 mt-5">No inactive showing but cx said he already paid.</h3>
+                <div className="p-3 bg-gray-600 rounded-md shadow">
+                    <ul>
+                        <li className="p-2">Payment Issue -- <strong className="text-amber-300 font-semibold">No Inactive</strong> --ask rider to wait for 5 min just for payment reflecting in your application after cx paid -- then after that ask rider to follow all 3 step for QR payment cancelling -- then calling cx -- and inform cx that you get an SMS notification regarding payment cancellation -- then do payment again in cash or on rider's personal QR -- same share to rider</li>
+                       
+                    </ul>
+                </div>
+
                 <h3 className="text-lg font-semibold text-emerald-400 mt-5">Customer not Responsive</h3>
                 <div className="p-3 bg-gray-600 rounded-md shadow">
                     <ul>
@@ -71,6 +79,7 @@ const PaymentIssue = () => {
 }
 
 export default PaymentIssue;
+
 
 
 
