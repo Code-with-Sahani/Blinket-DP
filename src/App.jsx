@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className='h-full w-full bg-gray-300 text-white pt-2'>
 
-       <div className="m-2 p-4 bg-gray-800 text-white rounded-md md:p-6 lg:p-8">
+       <div className="m-2 p-2 bg-gray-800 text-white rounded-md md:p-4 lg:p-6">
         <h2 className="text-center text-2xl font-bold text-emerald-400 mb-8">Comment Sheet For DP support - Certified by Sahani &#128517;</h2>
        
          <h2 className="text-center text-base font-semibold text-emerald-400 mb-8">Last Updated - 11-11-2025 at 03:18:00</h2>
