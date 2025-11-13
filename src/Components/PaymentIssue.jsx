@@ -48,6 +48,12 @@ const PaymentIssue = () => {
                 </div>
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
+                     <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
+                       <p className="text-sm   mb-2 mt-4 p-2">
+             Payment Issue -- Change Issue -- but rider do not have online mode to transfer the remaining amount to the cx -- ask rider to manage it from their side -- call close
+                       </p>
+                     </div>
+                   
                     <ul>
                         <li className="p-2">Payment Issue -- Change Issue -- called cx --<strong className="text-amber-300 font-semibold">cx responsive</strong> -- asked cx if possible to receive the remaining amount on his/her UPI or online -- cx agreed -- same share to rider// further no issue-call close  </li>
                        
@@ -86,6 +92,7 @@ const PaymentIssue = () => {
 }
 
 export default PaymentIssue;
+
 
 
 
