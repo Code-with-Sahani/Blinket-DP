@@ -12,6 +12,7 @@ const PaymentIssue = () => {
                 </div>
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
+                      <h3 className="text-md font-semibold text-emerald-300 mb-4">Payment Issue -- Failed </h3>
                     <ul>
                         <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">failed</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- refund within 6 hours if any debite -- convinced to pay in cash -- cx agreed -- asked DP to collect cash from cx and deliver the order </li>
                         <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">failed</strong> -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- refund within 6 hours if any debited -- cx refused to pay in cash -- order still with rider -- order cancelled -- shared with DP </li>
@@ -20,6 +21,7 @@ const PaymentIssue = () => {
                 </div>
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
+                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Payment Issue -- Pending </h3>
                 <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
                        <p className="text-sm   mb-2 mt-4 p-2">
               Payment Issue -- check payment status -- pending -- rider not getting an option of "Get help" i.e. rider not able to follow new update of payment -- ask the rider to contact the SM, and request the SM to share the videos or photos with the Blinkit team -- call close 
@@ -30,11 +32,9 @@ const PaymentIssue = () => {
                     <p className="text-sm   mb-2 mt-4 p-2">
               Payment Issue -- check payment status -- pending -- asked rider to Click on "Get help" -- and then upload cx's payment proof -- then ask to click "cancelling QR payment" -- ask rider to follow this step bcos after this cx get notified regarding his refund -- cx get ready to do payment again -- if not doing payment again by cx -- then reconnect us again (rider nto able to follow this steps over the call)
             </p>
-            
                 </div>
 
                     <ul>
-
                         <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending -- </strong>asked rider to Click on "Get help" -- and then upload cx's payment proof -- then ask to click "cancelling QR payment" -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- inform cx you get an notification regrading payment refund -- cx agree to pay in cash -- asked DP to collect cash and deliver </li>
 
                         <li className="p-2">Payment Issue -- check payment status -- <strong className="text-amber-300 font-semibold">pending -- </strong>asked rider to Click on "Get help" -- and then upload cx's payment proof -- then ask to click "cancelling QR payment" -- called cx -- <strong className="text-red-400 font-semibold">cx responsive</strong> -- inform cx you get an notification regrading payment refund -- cx not agree to pay in cash -- order still with rider -- order cancelled -- shared with DP </li>
@@ -48,6 +48,7 @@ const PaymentIssue = () => {
                 </div>
 
                 <div className="p-3 bg-gray-700 rounded-md shadow">
+                     <h3 className="text-md font-semibold text-emerald-300 mb-4">Payment Issue -- Change issue </h3>
                      <div className="text-sm border border-green-400 mb-2 mt-4 p-2">
                        <p className="text-sm   mb-2 mt-4 p-2">
              Payment Issue -- Change Issue -- but rider do not have online mode to transfer the remaining amount to the cx -- ask rider to manage it from their side -- call close
@@ -92,6 +93,7 @@ const PaymentIssue = () => {
 }
 
 export default PaymentIssue;
+
 
 
 
