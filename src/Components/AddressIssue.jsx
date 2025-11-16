@@ -19,6 +19,14 @@ const AddressIssue = () => {
                 </p>
 
                 <p className="text-sm mb-2 mt-4 p-2">
+                    Address issue -- mentioning distance here --  rider wanted to know where he has to go -- called cx -- ask cx to call rider for the correct location guidance -- same share to rider
+                </p>
+
+                <p className="text-sm mb-2 mt-4 p-2">
+                    Address issue -- mentioning distance here --  rider wanted to know where he has to go -- called cx -- cx not responsive -- ask rider to reach at given cx's location -- ask rider to follow the automation process & guide the steps
+                </p>
+
+                <p className="text-sm mb-2 mt-4 p-2">
                     Rider adamant and not ready to go at address & agree to beer penalty -- order cancel by informing cx -- refund TAT shared as well to cx -- same share to rider
                 </p>
             </div>
@@ -104,6 +112,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
