@@ -15,7 +15,7 @@ const AddressIssue = () => {
                 </p> */}
 
                 <p className="text-sm mb-2 mt-4 p-2">
-                    Address issue --// location issue -- high confidence -- but rider is not at geo-fence or at location -- ask rider to reach the geo-fence or at location then coordinate with cx and then deliver the order --if any then reconnect us again
+                    Address issue -- location issue -- high confidence -- but rider is not at geo-fence or at location -- ask rider to reach the geo-fence or at location then coordinate with cx and then deliver the order --if any then reconnect us again
                 </p>
 
             </div>
@@ -35,22 +35,22 @@ const AddressIssue = () => {
                     </p>
                 </p>
             </div>
-            <h3 className="text-lg font-semibold text-amber-400 mb-3">Out of Polygon --// Pin location mismatch </h3>
+            <h3 className="text-lg font-semibold text-emerald-400 mb-3">Out of Polygon -- Pin location mismatch </h3>
             <div className="space-y-4">
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
 
-                        <li className="p-2">As Dp said --// Location mismatch --// <strong className="text-yellow-400 font-semibold">As seen in Recent Address--// Delivered✅</strong> --// ask rider to deliver the order --// raise the ticket for the extra distance if travelled </li>
+                        <li className="p-2">As Dp said -- Location mismatch -- <strong className="text-yellow-400 font-semibold">As seen in Recent Address-- Delivered✅</strong> -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled </li>
 
-                        <li className="p-2">As Dp said --// Location mismatch --// <strong className="text-yellow-400 font-semibold">As seen in Recent Address--// Not Delivered ❎</strong> --// Checked Distance b/w location to address --// less than 500 meter --// ask rider to deliver the order --// raise the ticket for the extra distance if travelled </li>
+                        <li className="p-2">As Dp said -- Location mismatch -- <strong className="text-yellow-400 font-semibold">As seen in Recent Address-- Not Delivered ❎</strong> -- Checked Distance b/w location to address -- less than 500 meter -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled </li>
 
-                        <li className="p-2">As Dp said --// Location mismatch --// <strong className="text-yellow-400 font-semibold">As seen in Recent Address--// Not Delivered ❎</strong> --// Checked Distance b/w location to address --// more than 500 meter --// Checked Distance b/w location to address --// more than 500 meter --// Now  Distance b/w address to store --// less than 4km --// ask rider to deliver the order --// raise the ticket for the extra distance if travelled </li>
+                        <li className="p-2">As Dp said -- Location mismatch -- <strong className="text-yellow-400 font-semibold">As seen in Recent Address-- Not Delivered ❎</strong> -- Checked Distance b/w location to address -- more than 500 meter -- Checked Distance b/w location to address -- more than 500 meter -- Now  Distance b/w address to store -- less than 4km -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled </li>
 
-                        <li className="p-2">As Dp said --// Location mismatch --// <strong className="text-yellow-400 font-semibold">As seen in Recent Address--// Not Delivered ❎</strong> --// Checked Distance b/w location to address --// more than 500 meter --// Checked Distance b/w location to address --// more than 500 meter --// Now  Distance b/w address to store --// more than 4km --// checked serviceability --// <strong className="text-yellow-400 font-semibold">Serviceable Store✅</strong> --//  ask rider to deliver the order --// raise the ticket for the extra distance if travelled </li>
+                        <li className="p-2">As Dp said -- Location mismatch -- <strong className="text-yellow-400 font-semibold">As seen in Recent Address-- Not Delivered ❎</strong> -- Checked Distance b/w location to address -- more than 500 meter -- Checked Distance b/w location to address -- more than 500 meter -- Now  Distance b/w address to store -- more than 4km -- checked serviceability -- <strong className="text-yellow-400 font-semibold">Serviceable Store✅</strong> --  ask rider to deliver the order -- raise the ticket for the extra distance if travelled </li>
 
-                        <li className="p-2">As Dp said --// Location mismatch --// <strong className="text-yellow-400 font-semibold">As seen in Recent Address--// Not Delivered ❎</strong> --// Checked Distance b/w location to address --// more than 500 meter --// Checked Distance b/w location to address --// more than 500 meter --// Now  Distance b/w address to store --// more than 4km --// checked serviceability --// <strong className="text-red-400 font-semibold">Not Serviceable Store ❎</strong> --// rider agreed for extra pay -- ask rider to deliver & raise the ticket after delivery</li>
+                        <li className="p-2">As Dp said -- Location mismatch -- <strong className="text-yellow-400 font-semibold">As seen in Recent Address-- Not Delivered ❎</strong> -- Checked Distance b/w location to address -- more than 500 meter -- Checked Distance b/w location to address -- more than 500 meter -- Now  Distance b/w address to store -- more than 4km -- checked serviceability -- <strong className="text-red-400 font-semibold">Not Serviceable Store ❎</strong> -- rider agreed for extra pay -- ask rider to deliver & raise the ticket after delivery</li>
 
-                        <li className="p-2">As Dp said --// Location mismatch --// <strong className="text-yellow-400 font-semibold">As seen in Recent Address--// Not Delivered ❎</strong> --// Checked Distance b/w location to address --// more than 500 meter --// Checked Distance b/w location to address --// more than 500 meter --// Now  Distance b/w address to store --// more than 4km --// checked serviceability --// <strong className="text-red-400 font-semibold">Not Serviceable Store ❎</strong> --// -- rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider</li>
+                        <li className="p-2">As Dp said -- Location mismatch -- <strong className="text-yellow-400 font-semibold">As seen in Recent Address-- Not Delivered ❎</strong> -- Checked Distance b/w location to address -- more than 500 meter -- Checked Distance b/w location to address -- more than 500 meter -- Now  Distance b/w address to store -- more than 4km -- checked serviceability -- <strong className="text-red-400 font-semibold">Not Serviceable Store ❎</strong> -- -- rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider</li>
                     </ul>
                 </div>
 
