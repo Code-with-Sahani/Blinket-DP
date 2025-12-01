@@ -15,8 +15,9 @@ const AddressIssue = () => {
                 </p> */}
 
                 <p className="text-sm mb-2 mt-4 p-2">
-                    Address issue// location issue -- but rider is not at geo-fence or at location -- ask rider to reach the geo-fence or at location then coordinate with cx and then deliver the order --if any then reconnect us again
+                     Address issue// location issue -- high confidence -- but rider is not at geo-fence or at location -- ask rider to reach the geo-fence first or at location then coordinate with cx and then deliver the order --if any issue then reconnect us again
                 </p>
+
 
             </div>
 
@@ -101,6 +102,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
