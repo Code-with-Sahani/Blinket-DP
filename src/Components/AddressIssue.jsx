@@ -41,7 +41,7 @@ const AddressIssue = () => {
                 <div className="p-3 bg-gray-700 rounded-md shadow">
                     <ul className="list-disc pl-5">
 
-                        <li className="p-2">As Dp said --// Location mismatch with current address --// <strong className="text-yellow-400 font-semibold">Order Recently Delivered --// Yes Delivered✅</strong> --// ask rider to deliver the order --// raise the ticket for the extra distance if travelled </li>
+                        <li className="p-2">As Dp said --// Location mismatch with current address --// <strong className="text-yellow-400 font-semibold">Order Recently Delivered --// Delivered✅</strong> --// ask rider to deliver the order --// raise the ticket for the extra distance if travelled </li>
 
                         <li className="p-2">As Dp said --// Location mismatch with current address --// <strong className="text-yellow-400 font-semibold">Order Recently Delivered --// Not Delivered ❎</strong> --// Checked Distance b/w location to address --// less than 500 meter --// ask rider to deliver the order --// raise the ticket for the extra distance if travelled </li>
 
@@ -102,6 +102,7 @@ const AddressIssue = () => {
 };
 
 export default AddressIssue;
+
 
 
 
