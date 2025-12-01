@@ -31,7 +31,7 @@ const AddressIssue = () => {
                     </p>
 
                     <p className="text-sm mb-2 mt-4 p-2">
-                        Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address text-sm mb-2 mt-4 p-2more than 8 km -- rider denied extra -- inform cx about cancellation & refund TATA shared -- order cancel -- same share to rider
+                        Address issue -- I don't know the pin location order -- rider said that cx address is very far -- Distance b/w store and cx's address more than 8 km -- rider denied extra -- inform cx about cancellation & refund TATA shared -- order cancel -- same share to rider
                     </p>
                 </div>
             </div>
