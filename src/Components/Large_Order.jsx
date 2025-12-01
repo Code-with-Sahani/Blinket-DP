@@ -8,9 +8,9 @@ const Large_Order = () => {
         <div className="p-3 bg-gray-700 rounded-md shadow">
             <div className="text-sm border border-green-400 mb-4 mt-2 p-2">
               
-          <p className="text-sm mb-2 mt-2 p-2">Apple Order-CDO -- by mistake/Duplicate order -- called cx -- <strong className='text-red-400'>cx responded</strong> -- cx denied to accept -- cx confrimed he/she did notopen the packet-- ask rider to Submit the order at store -- then reconnect us again regarding the cancellation.</p>
-          <p className="text-sm mb-2 mt-2 p-2">Apple Order-CDO -- by mistake/Duplicate order -- called cx -- <strong className='text-red-400'>cx responded</strong> -- cx denied to accept -- cx confrimed he/she did notopen the packet -- order submitted at store -- called SM -- SM confirmed -- highlighted to concern team for cancellation -- same shared to DP</p>
-          <p className="text-sm mb-2 mt-2 p-2">Apple Order-CDO -- by mistake/Duplicate order -- called cx -- <strong className='text-red-400'>cx responded</strong> -- cx denied to accept -- cx confrimed he/she did notopen the packet -- order submitted at store -- called SM -- SM unresponsive -- rider at store according to the map -- highlighted to concern team for cancellation -- same shared to DP</p>
+          <p className="text-sm mb-2 mt-2 p-2">Apple Order-CDO -- by mistake/Duplicate order -- called cx -- <strong className='text-red-400'>cx responded</strong> -- cx denied to accept -- cx confrimed that he/she did not open the packet-- ask rider to Submit the order at store -- then reconnect us again regarding the cancellation.</p>
+          <p className="text-sm mb-2 mt-2 p-2">Apple Order-CDO -- by mistake/Duplicate order -- called cx -- <strong className='text-red-400'>cx responded</strong> -- cx denied to accept -- cx confrimed that he/she did not open the packet -- order submitted at store -- called SM -- SM confirmed -- highlighted to concern team for cancellation -- same shared to DP</p>
+          <p className="text-sm mb-2 mt-2 p-2">Apple Order-CDO -- by mistake/Duplicate order -- called cx -- <strong className='text-red-400'>cx responded</strong> -- cx denied to accept -- cx confrimed that he/she did not open the packet -- order submitted at store -- called SM -- SM not responded -- rider at store according to the map -- highlighted to concern team for cancellation -- same shared to DP</p>
             </div>
           
           <ul className="list-disc pl-5">
