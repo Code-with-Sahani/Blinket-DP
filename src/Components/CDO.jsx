@@ -42,7 +42,7 @@ const CDO = () => {
 
                         <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- <strong className='text-yellow-300 font-semibold'>consent given by cx</strong> -- cancel order & refund TAT shared -- same info shared to DP</li>
 
-                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- <strong className='text-yellow-300 font-semibold'>consent not given by cx</strong> -- ask DP to follow automation in CDO</li>
+                        <li className='p-2'>CDO -- <strong className='text-yellow-300 font-semibold'>due to by mistake</strong> -- called cx -- <strong className='text-red-400'>cx responsive</strong> -- <strong className='text-yellow-300 font-semibold'>consent not given by cx</strong> -- ask DP to follow automation in CNR </li>
                     </ul>
                 </div>
 
@@ -76,11 +76,13 @@ const CDO = () => {
                     <hr className='mb-5 mt-5' />
                     <div className="text-sm border border-green-400 mb-4 mt-2 p-2">
 
-                        <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No proper call recording available -- <u>ETA+15 mins not crossed</u> -- 2 CNR attempt available ✅-- inform rider order got cancelled automatically & requested to wait till ETA + 15min.</p>
+                        <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No proper call recording available -- No CNR attempt ❎ --ask DP to follow automation in CNR if cx wants to cancel else deliver the order</p>
 
-                        <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No proper call recording available -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to wait for few moment order got cancelled automatically.</p>
+                        <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No proper call recording available -- after CNR attempt -- <strong className='text-yellow-300 font-semibold'> Before CNR +15 min ✅</strong> -- asked to follow the automation process for the order cancellation till CNR + 15 min</p>
 
-                        <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive <u>// Voicemail or Switched off</u> </strong> -- No proper call recording available -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- order canceled by me -- same info shared to DP</p>
+                        <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive</strong> -- No proper call recording available -- after CNR attempt -- <strong className='text-yellow-300 font-semibold'> after CNR +15 min ✅</strong> -- Order cancelled -- same share to rider </p>
+
+                        <p className="text-sm mb-2 mt-4 p-2">CDO -- called cx -- <strong className='text-red-400'>cx not responsive <u>// Voicemail or Switched off</u> </strong> -- No proper call recording available -- order canceled by me -- same info shared to DP</p>
 
                     </div>
                 </div>
