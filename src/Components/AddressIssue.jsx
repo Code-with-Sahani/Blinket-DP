@@ -40,17 +40,17 @@ const AddressIssue = () => {
                     <h3 className="text-sm font-semibold text-emerald-400 mb-3">Out of Polygon -- Pin pin location mismatch</h3>
                     <div className="list-disc pl-5 ">
 
-                        <p className="p-2">As dp said -- pin location mismatch --as seen in recent address -- Delivered✅ -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled </p>
+                        <p className="p-2">As dp said -- pin location mismatch -- FARAWAY STORE✅ -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled </p>
 
-                        <p className=" p-2">As dp said -- pin location mismatch --as seen in recent address -- Not Delivered ❎ -- checked distance b/w location to address -- less than 500 meter -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled </p>
+                        <p className=" p-2">As dp said -- pin location mismatch -- checked distance b/w location to address -- less than 500 meter -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled </p>
 
-                        <p className="p-2">As dp said -- pin location mismatch --as seen in recent address -- Not Delivered ❎ -- checked distance b/w location to address -- more than 500 meter -- Now distance b/w address to store -- less than 4km -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled </p>
+                        <p className="p-2">As dp said -- pin location mismatch -- checked distance b/w location to address -- more than 500 meter -- Now distance b/w address to store -- less than 4km -- ask rider to deliver the order -- raise the ticket for the extra distance if travelled </p>
 
-                        <p className="p-2">As dp said -- pin location mismatch --as seen in recent address -- Not Delivered ❎ -- checked distance b/w location to address -- more than 500 meter -- Now distance b/w address to store -- more than 4km -- checked serviceability -- Serviceable Store --  ask rider to deliver the order -- raise the ticket for the extra distance if travelled </p>
+                        <p className="p-2">As dp said -- pin location mismatch -- checked distance b/w location to address -- more than 500 meter -- Now distance b/w address to store -- more than 4km -- checked serviceability -- Serviceable Store --  ask rider to deliver the order -- raise the ticket for the extra distance if travelled </p>
 
-                        <p className="p-2">As dp said -- pin location mismatch --as seen in recent address -- Not Delivered ❎ -- checked distance b/w location to address -- more than 500 meter -- Now distance b/w address to store -- more than 4km -- checked serviceability -- Not Serviceable Store -- rider agreed for extra pay -- ask rider to deliver & raise the ticket after delivery</p>
+                        <p className="p-2">As dp said -- pin location mismatch -- checked distance b/w location to address -- more than 500 meter -- Now distance b/w address to store -- more than 4km -- checked serviceability -- Not Serviceable Store -- rider agreed for extra pay -- ask rider to deliver & raise the ticket after delivery</p>
 
-                        <p className="p-2">As dp said -- pin location mismatch --as seen in recent address -- Not Delivered ❎ -- checked distance b/w location to address -- more than 500 meter -- Now distance b/w address to store -- more than 4km -- checked serviceability -- Not Serviceable Store -- rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider</p>
+                        <p className="p-2">As dp said -- pin location mismatch -- checked distance b/w location to address -- more than 500 meter -- Now distance b/w address to store -- more than 4km -- checked serviceability -- Not Serviceable Store -- rider denied for extra pay -- order cancel after informing cx & refund TAT shared -- same share to rider</p>
 
                     </div>
                 </div>
@@ -77,14 +77,14 @@ const AddressIssue = () => {
 
                         <p className="p-2">Incomplete address -- mentioned address minor details missing -- called cx -- cx responded -- requested cx to call the rider for guidance -- same share to rider and asked to ensure delivery</p>
 
-                        <p className='p-2'>Incomplete address -- mentioned address minor details missing  -- called cx twice -- cx not responded -- ETA+15 mins not crossed -- Call Attempt available ✅-- called Cx -- Cx not responded -- ask rider to follow automation till ETA +15 min </p>
+                        <p className='p-2'>Incomplete address -- mentioned address minor details missing  -- called cx twice -- cx not responded  -- ask rider to follow automation for the order cancelllation </p>
 
-                        <p className='p-2'>Incomplete address -- mentioned address minor details missing  -- called cx twice -- cx not responded -- ETA+15 mins not crossed✅-- 2 CNR attempt available ✅-- called Cx twice -- Cx not responded -- ask rider to follow automation till ETA +15 min - call close</p>
+                        {/* <p className='p-2'>Incomplete address -- mentioned address minor details missing  -- called cx twice -- cx not responded -- ETA+15 mins not crossed✅-- 2 CNR attempt available ✅-- called Cx twice -- Cx not responded -- ask rider to follow automation till ETA +15 min - call close</p> */}
 
 
-                        <p className='p-2'>Incomplete address -- mentioned address minor details missing -- called Cx twice -- cx not responded -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to follow automation till ETA +15 min - call close</p>
+                        {/* <p className='p-2'>Incomplete address -- mentioned address minor details missing -- called Cx twice -- cx not responded -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- ask rider to follow automation till ETA +15 min - call close</p> */}
 
-                        <p className='p-2'>Incomplete address -- mentioned address minor details missing -- called Cx twice -- cx not responded // <u>Voicemail or Switched off</u> -- ETA+15 mins crossed -- 2 CNR attempt available ✅-- order cancel -- same share to rider </p>
+                        <p className='p-2'>Incomplete address -- mentioned address minor details missing -- called Cx twice -- cx not responded // <u>Voicemail or Switched off</u> -- order cancel -- same share to rider </p>
 
 
                     </div>
